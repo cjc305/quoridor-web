@@ -1,0 +1,220 @@
+<title>步步為營</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700&display=swap">
+<style>
+  /* Layout: board left, control panel right; stacks to one column on phones.
+     Single dark look, matching the Android app's tokens (app/.../ui/theme/Theme.kt). */
+  :root {
+    color-scheme: dark;
+    --bg: #2b2a27;
+    --panel: #33322e;
+    --line: #4a4843;
+    --fg: #e8e4dc;
+    --muted: #a8a398;
+    --accent: #8ab4f8;
+    --on-accent: #0b1e3a;
+    --board: #f1ddb8;
+    --board-label: #9c8466;
+    --cell: #d8a77a;
+    --cell-shadow: #b4865a;
+    --wall: #5b3a17;
+    --wall-ghost: rgba(91, 58, 23, 0.5);
+    --target: rgba(58, 36, 16, 0.33);
+    --last-move: #e9c79e;
+    --pawn-white: #efe8e0;
+    --pawn-white-edge: #bdb2a4;
+    --pawn-black: #5a3209;
+    --pawn-black-edge: #341c03;
+    --font-body: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", system-ui, sans-serif;
+    --font-display: "Noto Serif TC", "Songti TC", "PMingLiU", serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", monospace;
+    --radius: 12px;
+  }
+  [hidden] { display: none !important; }
+  html, body { height: 100%; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font: 15px/1.5 var(--font-body);
+    padding-inline: 16px;
+  }
+  .app {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 320px;
+    gap: 24px;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding-block: 20px;
+    align-items: start;
+  }
+  @media (max-width: 760px) {
+    .app { grid-template-columns: minmax(0, 1fr); gap: 12px; padding-block: 12px; }
+  }
+  /* The canvas backing store is sized in device pixels; a minmax(0, 1fr) track keeps that
+     intrinsic width from feeding back into the layout. Height-capped so the board fits. */
+  .board-area { display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; width: min(100%, calc(100dvh - 120px)); min-width: 280px; justify-self: center; }
+  .stock { display: flex; align-items: center; gap: 10px; min-height: 22px; color: var(--muted); font-size: 13px; }
+  .stock .bars { display: flex; gap: 4px; height: 18px; }
+  .stock .bar { width: 5px; border-radius: 3px; background: var(--board); }
+  .stock .turn-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); visibility: hidden; }
+  .stock.active .turn-dot { visibility: visible; }
+  #board { width: 100%; max-width: 100%; aspect-ratio: 1; display: block; touch-action: manipulation; cursor: pointer; }
+
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 16px;
+    display: grid;
+    gap: 14px;
+    min-width: 0;
+  }
+  h1 { margin: 0; font: 700 22px/1.2 var(--font-display); letter-spacing: 0.08em; text-wrap: balance; }
+  h1 small { font: 400 12px/1 var(--font-mono); color: var(--muted); letter-spacing: 0.06em; margin-left: 8px; }
+  .status { margin: 0; font-weight: 500; min-height: 1.5em; display: flex; align-items: center; gap: 8px; }
+  .spinner { width: 14px; height: 14px; border-radius: 50%; border: 2px solid var(--line); border-top-color: var(--accent); animation: spin 0.8s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @media (prefers-reduced-motion: reduce) { .spinner { animation: none; } }
+
+  .controls { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
+  .icon-btn {
+    display: grid; justify-items: center; gap: 2px;
+    padding: 8px 2px; border-radius: 10px;
+    border: 1px solid var(--line); background: transparent; color: var(--fg);
+    font: 12px/1.2 var(--font-body); cursor: pointer;
+  }
+  .icon-btn svg { width: 20px; height: 20px; fill: currentColor; }
+  .icon-btn:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+  .icon-btn:disabled { opacity: 0.35; cursor: default; }
+  button:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .tabs { display: grid; grid-template-columns: repeat(2, 1fr); border-bottom: 1px solid var(--line); }
+  .tab {
+    background: none; border: 0; border-bottom: 2px solid transparent; margin-bottom: -1px;
+    color: var(--muted); font: 500 15px var(--font-body); padding: 8px 0; cursor: pointer;
+  }
+  .tab[aria-selected="true"] { color: var(--accent); border-bottom-color: var(--accent); }
+  .tab-panel { display: grid; gap: 14px; }
+
+  .row { display: flex; align-items: center; gap: 12px; }
+  .row > .label { width: 3.5em; flex: none; }
+  .seg { display: grid; grid-template-columns: 1fr 1fr; flex: 1; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; }
+  .seg button { background: none; border: 0; color: var(--fg); font: 14px var(--font-body); padding: 6px 0; cursor: pointer; }
+  .seg button + button { border-left: 1px solid var(--line); }
+  .seg button[aria-pressed="true"] { background: var(--line); color: var(--accent); font-weight: 500; }
+  .field { display: grid; gap: 4px; }
+  .field-title { font-weight: 500; }
+  input[type="range"] { width: 100%; accent-color: var(--accent); margin: 0; }
+  .ticks { display: flex; justify-content: space-between; font-size: 12px; color: var(--muted); }
+  .ticks .on { color: var(--accent); }
+  .note, .help { margin: 0; font-size: 13px; color: var(--muted); }
+  .stats { display: grid; grid-template-columns: auto 1fr; gap: 4px 16px; margin: 0; }
+  .stats dt { color: var(--muted); }
+  .stats dd { margin: 0; text-align: right; font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+  .moves { display: flex; flex-wrap: wrap; gap: 4px 10px; font-family: var(--font-mono); font-size: 14px; max-height: 12em; overflow-y: auto; }
+  .moves .num { color: var(--muted); }
+  .moves button { background: none; border: 0; padding: 0 2px; color: var(--fg); font: inherit; cursor: pointer; border-radius: 4px; }
+  .moves button.current { color: var(--on-accent); background: var(--accent); }
+  .empty { color: var(--muted); }
+  .moves-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+  .text-btn { background: none; border: 0; color: var(--accent); font: 500 14px var(--font-body); cursor: pointer; padding: 4px 0; }
+  .text-btn:disabled { color: var(--muted); cursor: default; }
+  .mistake-status { margin: 0; color: var(--accent); font-size: 14px; }
+  .head-actions { display: flex; gap: 14px; }
+  .import-box { display: grid; gap: 6px; justify-items: start; }
+  textarea.notation { resize: vertical; }
+  .notation {
+    width: 100%; box-sizing: border-box; padding: 6px 8px; border-radius: 8px;
+    border: 1px solid var(--line); background: var(--bg); color: var(--muted);
+    font: 13px var(--font-mono);
+  }
+</style>
+
+<main class="app">
+  <section class="board-area" aria-label="棋盤">
+    <div class="stock" id="stock-top"><span class="turn-dot"></span><span class="who"></span><span class="bars"></span></div>
+    <canvas id="board" role="img" aria-label="步步為營棋盤"></canvas>
+    <div class="stock" id="stock-bottom"><span class="turn-dot"></span><span class="who"></span><span class="bars"></span></div>
+  </section>
+
+  <aside class="panel">
+    <h1>步步為營<small>QUORIDOR</small></h1>
+    <p class="status" id="status" aria-live="polite"></p>
+
+    <div class="controls">
+      <button class="icon-btn" id="btn-new" type="button">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19,13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>新對局</button>
+      <button class="icon-btn" id="btn-undo" type="button">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.5,8c-2.65,0 -5.05,0.99 -6.9,2.6L2,7v9h9l-3.62,-3.62c1.39,-1.16 3.16,-1.88 5.12,-1.88 3.54,0 6.55,2.31 7.6,5.5l2.37,-0.78C21.08,11.03 17.15,8 12.5,8z"/></svg>悔棋</button>
+      <button class="icon-btn" id="btn-flip" type="button">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16,17.01V10h-2v7.01h-3L15,21l4,-4h-3zM9,3L5,6.99h3V14h2V6.99h3L9,3z"/></svg>翻轉</button>
+      <button class="icon-btn" id="btn-back" type="button">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.41,7.41L14,6l-6,6 6,6 1.41,-1.41L10.83,12z"/></svg>上一手</button>
+      <button class="icon-btn" id="btn-forward" type="button">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10,6L8.59,7.41 13.17,12l-4.58,4.59L10,18l6,-6z"/></svg>下一手</button>
+    </div>
+
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" id="tab-btn-play" aria-controls="tab-play" aria-selected="true" type="button">對弈</button>
+      <button class="tab" role="tab" id="tab-btn-analyze" aria-controls="tab-analyze" aria-selected="false" type="button">分析</button>
+    </div>
+
+    <div class="tab-panel" id="tab-play" role="tabpanel">
+      <div class="row"><span class="label">白方</span>
+        <div class="seg" id="seg-white"><button type="button" data-type="HUMAN">玩家</button><button type="button" data-type="AI">電腦</button></div></div>
+      <div class="row"><span class="label">黑方</span>
+        <div class="seg" id="seg-black"><button type="button" data-type="HUMAN">玩家</button><button type="button" data-type="AI">電腦</button></div></div>
+      <p class="help">點有圓點的格子移動棋子；點格子之間的縫隙預覽牆，同一位置再點一次即可放置。</p>
+    </div>
+
+    <div class="tab-panel" id="tab-analyze" role="tabpanel" hidden>
+      <dl class="stats">
+        <dt>白方最短路徑</dt><dd id="dist-white"></dd>
+        <dt>黑方最短路徑</dt><dd id="dist-black"></dd>
+      </dl>
+      <div id="search-stats">
+        <dl class="stats">
+          <dt>電腦上一手</dt><dd id="an-move"></dd>
+        </dl>
+        <dl class="stats" id="ab-stats">
+          <dt>評估（白方視角）</dt><dd id="an-eval"></dd>
+          <dt>搜尋深度</dt><dd id="an-depth"></dd>
+          <dt>節點數</dt><dd id="an-nodes"></dd>
+        </dl>
+        <dl class="stats" id="nn-stats" hidden>
+          <dt>白方勝率</dt><dd id="an-winrate"></dd>
+          <dt>模擬次數</dt><dd id="an-sims"></dd>
+        </dl>
+      </div>
+      <p class="note" id="an-none">尚未進行 AI 搜尋</p>
+      <div class="field">
+        <div class="moves-head"><span class="field-title">棋譜</span><button class="text-btn" id="btn-copy" type="button">複製棋譜</button></div>
+        <div class="moves" id="moves"></div>
+        <input class="notation" id="notation" readonly aria-label="棋譜文字">
+      </div>
+      <div class="field">
+        <div class="moves-head"><span class="field-title">錯題本</span>
+          <span class="head-actions"><button class="text-btn" id="btn-import" type="button">匯入</button><button class="text-btn" id="btn-export" type="button">匯出</button></span></div>
+        <div class="import-box" id="import-box" hidden>
+          <label class="note" for="mistake-import">貼上從手機或其他瀏覽器匯出的錯題本，按「合併」。只會新增，不會刪掉這裡已有的內容。</label>
+          <textarea class="notation" id="mistake-import" rows="3"></textarea>
+          <button class="text-btn" id="btn-merge" type="button">合併</button>
+        </div>
+        <p class="mistake-status" id="import-status" hidden></p>
+        <p class="note" id="mistake-summary"></p>
+        <p class="mistake-status" id="mistake-status" hidden></p>
+        <textarea class="notation" id="mistake-export" rows="3" readonly aria-label="錯題本棋譜" hidden></textarea>
+        <div class="moves-head" id="cloud-row" hidden>
+          <span class="note" id="cloud-status"></span>
+          <button class="text-btn" id="btn-cloud" type="button"></button>
+        </div>
+      </div>
+    </div>
+
+  </aside>
+</main>
+
+<script src="quoridor.js"></script>

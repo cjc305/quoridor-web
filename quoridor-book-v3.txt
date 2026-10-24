@@ -1,0 +1,250 @@
+# White's opening book v3 candidate (2026-10-22): book v2 (58) + Ishtar white wins from ishtar-selfplay-007.txt
+# (black's early moves randomized incl. walls in most games; every white move is Ishtar's).
+e2 e8 e3 e7 e4 e6 h3h h6h f3h d3v d5v f6h d1v c4h e1h a4h g1h d7h c6h e6v a7h c8h e5 e4 e6 e3 e7 f3 d7 g3 c7 g2 h1v g3 c7v h3 c8 i3 b8 i2 b9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h f6h d1v h6h d5v d7h e5v e7v c6h b7h a5h a6h f3v g3v a8v e1v g1h c5v e5 e4 e6 f4 e7 f5 d7 g5 c7 g4 b7 g3 a7 g2 a8 f2 a9
+e2 e8 e3 e7 e4 e6 a3h a6h c3h e3v e5v c6h e1v f4h d1h h4h b1h e7h f6h d6v h7h f8h e5 e4 e6 e3 e7 d3 f7 d2 e8v c2 a1v b2 g7 b3 g8 a3 h8 a2 h9
+e2 e8 e3 e7 e4 e6 a3h e7h e5 c7h e4h g7h g4h h8h c3h a7h d4v f6 f5 f8h h5v g6 f6 f6v f5 g3v h1h e1h g5 h6 h5 h7 h6 d8h i7 i6 i8 i5 h8 i4 g8 h4 f8 h3 g2h i3 e8 i2 d8 h2 c8 g2 c9
+e2 e8 e3 e7 e4 e6 h3h h6h f3h d3v d5v f6h d1v c4h e1h a4h g1h d7h c6h e6v a7h c8h e5 e4 e6 e3 e7 f3 d7 f2 d8v g2 h1v h2 c7 h3 c8 i3 b8 i2 b9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h f6h d1v h6h d5v d7h e5v e7v c6h b7h a5h a6h f3v g3v b8v e3h f1h g5h e5 e4 e6 f4 e7 f5 d7 g5 c7 g4 b7 g3 a7 g2 a8 h2 a9
+e2 e8 e3 e7 e4 e6 a3h a6h c3h e3v e5v c6h e1v f4h d1h h4h b1h e7h f6h d6v h7h f8h e5 e4 e6 e3 e7 d3 f7 c3 g7 c2 a1v c3 f7v b3 g8 a3 h8 a2 h9
+e2 e8 e3 e7 e4 e6 h3h h6h f3h d3v d5v f6h d1v c4h e1h a4h g1h d7h c6h e6v a7h c8h e5 e4 e6 e3 e7 f3 d7 f2 c7 g2 h1v g3 d8v h3 c8 i3 b8 i2 b9
+e2 e8 e3 e7 e4 e6 a3h a6h c3h e3v e5v c6h e1v f4h d1h h4h b1h e7h f6h d6v h7h f8h e5 e4 e6 e3 e7 d3 f7 c3 g7 c2 a1v c3 e8v b3 g8 a3 h8 a2 h9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h f6h d1v h6h d5v d7h e5v e7v c6h b7h a5h a6h f3v g3v b8v e3h g1h h7v e5 e4 e6 f4 e7 f5 d7 g5 c7 g4 b7 g3 a7 g2 a8 f2 a9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h f6h d1v h6h d5v d7h e5v e7v c6h b7h a5h a6h f3v g3v b8v e3h f1h b4h e5 e4 e6 f4 e7 f5 d7 g5 c7 g4 b7 g3 a7 g2 a8 h2 a9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h f6h d1v h6h d5v d7h e5v e7v c6h b7h a5h a6h f3v g3v a8v e3h f1h g8v e5 e4 e6 f4 e7 f5 d7 g5 c7 g4 b7 g3 a7 g2 a8 h2 a9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h f6h d1v h6h d5v d7h e5v e7v c6h b7h a5h a6h f3v g3v a8v e1v g1h c4v e5 e4 e6 f4 e7 f5 d7 g5 c7 g4 b7 g3 a7 g2 a8 f2 a9
+e2 e8 e3 e7 e4 e6 h3h h6h f3h d3v d5v f6h d1v c4h e1h a4h g1h d7h c6h e6v a7h c8h e5 e4 e6 e3 e7 f3 d7 g3 c7 g2 h1v g3 d8v h3 c8 i3 b8 i2 b9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h f6h d1v h6h d5v d7h e5v e7v c6h b7h a5h a6h f3v g3v b8v e3h g1h b4v e5 e4 e6 f4 e7 f5 d7 g5 c7 g4 b7 g3 a7 g2 a8 f2 a9
+e2 e8 e3 e7 e4 e6 a3h e7h e5 c7h e4h g7h g4h h8h c3h a7h d4v f6 f5 g5 f7v g6h h1h f5h d5h h5 g5 i5 h5 i4 i5 f1v i6 g3v i7 h3v i8 i3 h8 i2 g8 h2 g9
+e2 e8 e3 e7 e4 e6 a3h f8v c3h e8h e5 d7v e3h f6 f5h d5v g6v g8h g3h h5h e5v f7 d3v h7v h1h e7 e6 e5 f3v e4 e7 f4 f7 f5 g7 g5 g8 h5 h8 i5 h7 i4 h6 i3 i6 h3 i7 g3 i8 g2 i9
+e2 e8 e3 e7 e4 e6 a3h f8v c3h e8h e5 d7v e3h f6 f5h c5v e6 d6h h1h g7h d6 e6v d5 g6 d4 h6 c4 h5 g3h h4 h4v h5 c5 b6h b5 h6 e4v i6 f1h a7h d1h i5 b6 a5v b5 i4 b4 i3 a4 i2 a5 h2 a6 g2 a7 f2 b7 e2 c7 d2 c8 c2 c9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h f6h d1v h6h d5v d7h e5v e7v c6h b7h a5h a6h f3v g3v a8v e3h f1h d8v e5 e4 e6 f4 e7 f5 d7 g5 c7 g4 b7 g3 a7 g2 a8 h2 a9
+e2 e8 e3 f8 e4 f7 e5 e5h f2h d4v h2h h7h d2h f7h d6v d3h e4 e7 f4 b1v f3 e8 d8v b3h b2h e7 e3 f7 d3 f6 e6v g6 g5h h6 c3 i6 b3 i5 a3 h5 a4 h4 a5 f3h b5 b5h a5 a7h a6 h3 b6 g3 c6 f3 c7 e3 c8 d3 c9
+e2 e8 e3 e7 e4 e6 a3h e7h e5 c7h e4h g7h g4h h8h c3h a7h d4v f6 f5 f8h h5v g6 f6 f6v g6v g3v h1h f1v d8v h2v f5 g5 h5 h6 h7 i7 i8 i6 h8 i5 g8 i4 f8 h4 e8 h3 e9
+e2 e8 e3 e7 e4 e6 a3h e7h e5 c7h e4h g7h g4h h8h c3h a7h d4v f6 f5 f8h h5v g6 f6 f6v f5 g3v h1h e1h g5 h6 h5 h7 h6 d8h i7 i6 i8 i5 h8 i4 g8 i3 f8 h3 g2h i3 e8 i2 d8 h2 c8 g2 c9
+e2 e8 e3 e7 e4 e6 a3h a6h c3h e3v e5v c6h e1v f4h h4v g3v d1h h2h b1h e7h f5v d6v h7h f8h e8v f3h e5 e4 e6 e3 e7 e2 f7 d2 g7 c2 g8 b2 h8 a2 h9
+e2 e8 e3 e7 e4 d7 e5 d5h c2h e4v a2h a7h e2h c7h f3v e7 e6v d6v d4v e8 e4 f8 e3 g8 f3 g7 f4 g6 f5 f5h g4h h6 h5v h8h g6h f8h g5 f7h h5 g6 h6 f6 g6 f7 f6 d8h h1h g7 f7 h7 g7 i7 h7 i6 h8 i5 g8 i4 f8 i3 e8 i2 d8 h2 c8 g2 c9
+e2 d9 e3 d8 e4 d7 e5 d5h c2h e4v a2h a7h e2h c7h f3v e7 e6v d6v d4v e8 e4 f8 e3 g8 f3 g7 f4 g6 f5 f5h g4h h6 h5v h8h g6h f8h g5 f7h h5 g6 h6 f6 g6 f7 f6 d8h h1h g7 f7 h7 g7 i7 h7 i6 h8 i5 g8 i4 f8 h4 e8 h3 d8 g3 c8 g2 c9
+e2 e8 e3 e7 e4 e6 a3h f8v c3h e8h e5 d7v e3h f6 f5h c5v e6 d6h h1h g7h d6 e6v d5 g6 d4 h6 c4 h5 g3h h4 h4v h5 c5 b6h b5 h6 e4v i6 a5 a5h b5 a7h g2h i5 c5 i4 c6 i3 b6 h3 a6 g3 f3v h3 a7 i3 b7 i2 c7 h2 c8 g2 c9
+e2 f9 e3 f8 e4 f7 e5 e5h f2h d4v h2h h7h d2h f7h d6v d3h e4 e7 f4 b6h c7h f7 b2h g7 g4 f6v a3v c6v g5h g6 g3 f3v h4v f4h h3 h6 h4 i6 h5 i5 g5 i4 f5 i3 e5 h3 e4 h4 f4 h5 f3 g5 e3 f5 d3 e5 c3 e4 c4 f4 c5 f3 b5 e3 a5 d3 a6 c3 a7 c4 a8 c5 b4v c6 a9
+e2 e8 e3 e7 e4 f7 e5 e5h f2h d4v h2h h7h d2h f7h e4 d3h f4 e7 d6v b5v b2h b3h a3v e8 g4 d8 g5 g5h h5 c8 i5 c7 a1h b7 a7v c6h a5v b7v i6 b8 h6 b9 g6 a9 f6 a8 e6 a7 e7 a6 e8 a5 c1h a4 e9
+e2 e8 e3 d8 e4 d7 e5 d5h c2h e4v a2h a7h e2h c7h f3v e7 e6v d6v d4v e8 e4 f8 e3 g8 f3 g7 f4 g6 f5 f5h g4h h6 h5v h8h g6h f8h g5 f7h h5 g6 h6 f6 g6 f7 f6 d8h h1h g7 f7 h7 g7 i7 h7 i6 h8 i5 g8 i4 f8 h4 e8 h3 d8 h2 c8 g2 c9
+e2 e8 e3 e7 e4 e8 e5 d8h e6 f8h c5h e5v a5h e7 d6 c6v e6h c8v d5v g7v g5h f7 f6v f8 h6v g8 d7 g7 d8 e8v e8 g6 e7 h6 f7 h7 f8 h8 g8 i8 g7 i7 g6 i6 h6 i5 h7 h5 h8 h4 h2h g4 f2h f4 d2h e4 h9
+e2 e8 e3 e7 e4 e6 h3h h6h f3h d3v d5v f6h d1v c4h e1h a4h g1h d7h c6h e6v a7h c8h e5 e4 e6 e3 e7 f3 d7 f2 c7 g2 h1v g3 c7v h3 c8 i3 b8 i2 b9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h f6h d1v h6h d5v d7h e5v e7v c6h b7h a5h a6h f3v g3v a8v e3h g1h b1v e5 e4 e6 f4 e7 f5 d7 g5 c7 g4 b7 g3 a7 g2 a8 f2 a9
+e2 d9 e3 d8 e4 d7 e5 d5h c2h e4v a2h a7h e2h c7h e4 g3h e3 e3h h1h d6 g2h c6 d2v e7h c5v c7 f3 d7 g3 e7 h3 f7 i3 g7 i4 g6 h4 h5h g4 f4h h4 g7h f1h g5 b6v h5 g5 i5 g6 i4 h6 i3 h7 i2 i7 h2 i8 g2 i9
+e2 f9 e3 f8 e4 f7 e5 e5h f2h d4v h2h h7h d2h f7h d6v d3h e4 e7 f4 e8 d8v e7 b2h b3h b4v f7 a5h g7 g4 g4h h4 h4v h3 g6 g5h h6 i3 e8h i4 i6 i5 i4 i6 g8h i7 i3 h7 h3 g7 g3 f7 f3 e7 e3 e8 d3 f8 c3 g8 b3 h8 a3 i8 a2 a1h b2 i9
+e2 e8 e3 e7 e4 f7 e5 e5h f2h d4v h2h h7h d2h f7h d6v d3h e4 e7 f4 b1v f3 e8 d8v b3h b2h e7 e3 f7 d3 f6 e6v g5v f3h h4h f4h a4h c3 g6 b3 g5 a3 f5 a4 e5 b4 e4 c4 f4 c5 g4 c6 h4 c7 h3 c8 g3 c9
+e2 e8 e3 e7 e4 d7 e5 d5h c2h e4v a2h a7h e2h c7h f3v e7 e6v d6v d4v e8 e4 f8 e3 g8 f3 g7 f4 g6 f5 f5h g4h h6 h5v h8h g6h f8h g5 f7h h5 g6 h6 f6 g6 f7 f6 d8h h1h g7 f7 h7 g7 i7 h7 i6 h8 i5 g8 i4 f8 h4 e8 h3 d8 g3 c8 g2 c9
+e2 d9 e3 d8 e4 d7 e5 d5h c2h e4v a2h a7h e2h c7h f3v e7 e6v d6v d4v e8 e4 f8 e3 g8 f3 g7 f4 g6 f5 f5h g4h h6 h5v h8h g6h f8h g5 f7h h5 g6 h6 f6 g6 f7 f6 d8h h1h g7 f7 h7 g7 i7 h7 i6 h8 i5 g8 i4 f8 i3 e8 h3 d8 g3 c8 g2 c9
+e2 e8 e3 e7 e4 e6 a3h e7h e5 c7h e4h g7h g4h h8h c3h a7h d4v f6 f5 f8h h5v g6 f6 f6v g6v f1v f5 g3v h1h d8h a8h g5 h5 h6 h7 i7 i8 i6 h8 i5 g8 i4 f8 i3 h2v i4 e8 h4 d8 h3 c8 h2 c9
+e2 f9 e3 f8 e4 f7 e5 e5h f2h d4v h2h h7h d2h f7h d6v d3h e4 e7 f4 b1v f3 e8 d8v b3h b2h e7 e3 e6 d7h f6 d3 g6 g5h h6 c3 i6 b3 i5 a3 h5 a4 h4 a5 f3h b5 h3 b6 b7h b6v a6v b5 g3 a5 f3 a6 e3 a7 d3 a8 c3 a9
+e2 e8 e3 d8 e4 d7 e5 d5h c2h e4v a2h a7h e2h c7h f3v e7 e6v d6v d4v e8 e4 f8 e3 g8 f3 g7 f4 g6 g4h h6 f5 f5h h5v h8h g6h f8h g5 f7h h5 g6 h6 f6 g6 f7 f6 d8h h1h g7 f7 h7 g7 i7 h7 i6 h8 i5 g8 i4 f8 i3 e8 i2 d8 h2 c8 g2 c9
+e2 e8 e3 e7 e4 e6 a3h f8v c3h e8h e5 d7v e3h f6 f5h c5v e6 d6h h1h g7h d6 d4h e6 g6 f1h f6v e5 h6 f5 h5 g3h h4 h4v h5 g5 h6 e4v g5v g4 h8h h4 i6 h5 i5 h6 i4 i6 i3 i7 i2 i8 h2 h8 g2 g8 f2 d1h e2 g9
+e2 e8 e3 e7 e4 f7 e5 e5h f2h d4v h2h h7h d2h f7h d6v d3h e4 e7 f4 b6h f3 e8 c7h e7 b2h f7 f4 f6 g4 f6v f4 f3h g4 g4v g5 c6v g6 f7 h6 e7 h5 e8 h4 d8 c8h c8 b7v d8 h3 e8 e8h f8 g3 g8 f3 g9 e3 f9 d3 e9 c3 d9 c4 c9 c5 b9 b5 b8 a5 b7 a6 a7 a8 a6 a3h b6 a9
+e2 e8 e3 e7 e4 e6 a3h f8v c3h e8h e5 d7v e3h f6 f5h c5v e6 d6h h1h g7h d6 e6v d5 g6 d4 h6 c4 h5 g3h h4 h4v h5 c5 b6h b5 h6 b6 a5v b5 a4h c5 i6 c4 i5 d4 i4 e4 i3 f2h h3 e5 h2 f5 g2 f1h f2 e1v g2 g5 h2 h5 h3 h6 g3 i6 f3 i7 e3 i8 e2 i9
+e2 e8 e3 e7 e4 f7 e5 e5h f2h d4v h2h h7h d2h f7h d6v d3h e4 e7 f4 e8 d8v e7 b2h b3h b4v f7 a5h g7 g4 g4h h4 h4v h3 g6 g5h h6 i3 e8h i4 i6 i5 i4 i6 g8h i7 i3 h7 h3 g7 g3 f7 f3 e7 e3 e8 d3 f8 c3 g8 b3 h8 a3 i8 a2 a1h b2 i9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h f6h d1v h6h d5v d7h e5v e7v c6h b7h a5h a6h f3v g3v b8v e3h g1h c8h e5 e4 e6 f4 e7 f5 d7 g5 c7 g4 b7 g3 a7 g2 a8 f2 a9
+e2 e8 e3 f8 e4 f7 e5 e5h f2h d4v h2h h7h d2h f7h e4 d3h f4 e7 d6v e8 d8v e7 b2h b3h b4v f7 a5h g7 g4 g4h h4 h4v h3 g6 g5h h6 i3 e8h i4 i6 i5 i4 i6 g8h i7 i3 h7 h3 g7 g3 f7 f3 e7 e3 e8 d3 f8 c3 g8 b3 h8 a3 i8 a2 a1h b2 i9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h f6h d1v h6h d5v d7h e5v e7v c6h b7h a5h a6h f3v g3v b8v e3h g1h c2h e5 e4 e6 f4 e7 f5 d7 g5 c7 g4 b7 g3 a7 g2 a8 f2 a9
+e2 e8 e3 e7 e4 e6 a3h a6h c3h e3v e5v c6h e1v f4h d1h h4h b1h e7h f6h d6v h7h f8h e5 e4 e6 e3 e7 d3 f7 d2 g7 c2 a1v c3 f7v b3 g8 a3 h8 a2 h9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h f6h d1v h6h d5v d7h e5v e7v c6h b7h a5h a6h f3v g3v a8v e3h g1h g5h e5 e4 e6 f4 e7 f5 d7 g5 c7 g4 b7 g3 a7 g2 a8 f2 a9
+e2 e8 e3 d8 e4 d7 e5 d5h c2h e4v a2h a7h e2h c7h f3v e7 e6v d6v d4v e8 e4 f8 e3 g8 f3 g7 f4 g6 f5 f5h g4h h6 h5v h8h g6h f8h g5 f7h h5 g6 h6 f6 g6 f7 f6 d8h h1h g7 f7 h7 g7 i7 h7 i6 h8 i5 g8 i4 f8 i3 e8 i2 d8 h2 c8 g2 c9
+e2 d9 e3 d8 e4 d7 e5 d5h c2h e4v a2h a7h e2h c7h f3v e7 e6v d6v d4v e8 e4 f8 e3 g8 f3 g7 f4 g6 f5 f5h g4h h6 h5v h8h g6h f8h g5 f7h h5 g6 h6 f6 g6 f7 f6 d8h h1h g7 f7 h7 g7 i7 h7 i6 h8 i5 g8 i4 f8 i3 e8 h3 d8 h2 c8 g2 c9
+e2 d9 e3 d8 e4 d7 e5 d5h c2h e4v a2h a7h e2h c7h f3v e7 e6v d6v d4v e8 e4 f8 e3 g8 f3 g7 f4 g6 f5 f5h g4h h6 h5v h8h g6h f8h g5 f7h h5 g6 h6 f6 g6 f7 f6 d8h h1h g7 f7 h7 g7 i7 h7 i6 h8 i5 g8 i4 f8 h4 e8 h3 d8 h2 c8 g2 c9
+e2 e8 e3 e7 e4 e6 a3h e7h e5 c7h e4h g7h g4h h8h c3h a7h d4v f6 f5 f8h h5v g6 f6 f6v g6v f1v f5 g3v h1h d8h a8h g5 h5 h6 h7 i7 i8 i6 h8 i5 g8 i4 f8 h4 e8 h3 g2h i3 d8 i2 c8 h2 c9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h f6h d1v h6h d5v d7h e5v e7v c6h b7h a5h a6h f3v g3v a8v e3h f1h f8h e5 e4 e6 f4 e7 f5 d7 g5 c7 g4 b7 g3 a7 g2 a8 h2 a9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h f6h d1v h6h d5v d7h e5v e7v c6h b7h a5h a6h f3v g3v b8v e1v g1h h5v e5 e4 e6 f4 e7 f5 d7 g5 c7 g4 b7 g3 a7 g2 a8 f2 a9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h f6h d1v h6h d5v d7h e5v e7v c6h b7h a5h a6h f3v g3v b8v e3h f1h g8h e5 e4 e6 f4 e7 f5 d7 g5 c7 g4 b7 g3 a7 g2 a8 h2 a9
+e2 e8 e3 e7 e4 e6 a3h f8v c3h e8h e5 d7v e3h f6 f5h c5v e6 d6h h1h g7h f1h g6 h5h f6 d3v g6v g3h b6h e5 e6 d5
+e2 e8 e3 e7 e4 e6 h3h d3v e2h f6h d1v h6h d5v d7h e5v e7v c6h b7h a5h a6h f3v g3v b8v e3h f1h c8v e5 e4 e6 f4 e7 f5 d7 g5 c7 g4 b7 g3 a7 g2 a8 h2 a9
+e2 e8 e3 e7 e4 e6 a3h a6h c3h e3v e5v c6h e1v f4h d1h h4h b1h e7h f6h d6v h7h f8h e5 e4 e6 e3 e7 d3 f7 d2 g7 c2 a1v c3 e8v b3 g8 a3 h8 a2 h9
+e2 e8 e3 e7 e4 d7v e6h c5h f4 f7 f7v f8 f5 f5v f4 f9 g4 h8h f4 e9 e4 f9 f3h e9 h3h f8h a5h e4h d4 c4h d3 d9 c3 d8 b3 b3h a3 a4v b3 b2v b2 d7 b1 d6 c1 e6 d1 e5 d2 d5 d3 c5 d4 b5 c4 b4 b5 c4 c5 d4 d5 d3 d2h c3 e5 d3 e6 c3 d6 c2 c1h c3 e1h d3 g1h e3 e3v d3 d7 c3 d8 c2 d9
+e2 e8 e3 e7 e4 e6 a3h f8v c3h d4v e3h f6v e5 h2v e7 e8h d7 c8h a8v b7v d6 e5 e6 f5 f4h g6h f6 g5 h4h e6v f5 e5 g5 g3h h5 e4 i5 f4 i6 g4 i7 h4 i8 i4 i9
+e2 e8 e3 e7 e4 e6 h3h d3h f3h d6 c5v b6v d6h c2v d4h f6v e3v e8v c7v e6 d4 f6 c4 b4h a3h f7 b4 e7 a4 e8 a5 a8h d8v e7 a6 d7 b7h d8 a7 d9 a8 c9 b8 c8 c9
+e2 h6v e3 e8 e4 e7 e5 d7h d5 e6 c4h e4v d6 e6h d7 c6v e5h f7h d6 d5 d5v h7h c5 c5h b5 c5 b6 b5 b7 b4 c1h e2v a1h b2v c3v c4 d2v c3 b8 c2 b9
+e2 f8v e3 e8 e4 e7 e5 e7h d4h d5v f4h d7v c6h a6v b5v g7h a5h f7 f5 g7 g5 g6 h5 h5h f1h h1v h2h g5 f5 h5 f6 h4 g6 f6h h6 h6h g6 h3 e2v g3 f6 g2 g1v g3 e6 g4 f3v g3 e7 g2 f7 f2 g7 f3 h7 f4 i7 e4 i8 e3 i9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h b5v e5 d7h c4h b7h e4h f7h a6h h7h f5v a8h d5 c6h f3h f6 d6 f7 e6 g3v g5h h4h e7 g7 d7 g6 c7 h6 b7 i6 a7 i5 a8 h5 b8 g5 c8 g4 g1h f4 c9
+e2 e8 e3 e7 e4 b1v e5 e7h f5 e6 f6 f6v f4h c7h d4h e5h c5v a7h h4h e7 e6 d7 d6 c7 a1h c6 d5 b6 e5 b5 f5 b4 b3v b5 b5v b6 g5 b7 g6 c7 g7 g7h h7 h6v h6 c1v c2h h8h h5 c6 i5 c5 i6 c4 i7 d4 i8 e4 h8 f4 f3h e4 d3h f4 g8 g4 g9
+e2 e8 e3 e7 e4 e6 a3h a6h c3h b2v e3h f6 e5 f8v e6 e7h f5h d6v g6 g7h h6 h8h h1h e6 f1h e5 g3h e6 d4v h6h f6v e5 g6 f5 g7 g5 h7 h5 i7 g4v i8 i5 h8 c2v g8 i4 g9
+e2 e8 e3 e7 e4 e6 h3h e4v e5 d5v e7 d7h e5h d8v c6h b7h a6h f7h g5h h6h f5v f7 g7 g7v e7 e2v g2h a8h f1h g7 d7 g6 c7 h6 b7 i6 a7 i5 a8 h5 b8 h4 g3v h5 c8 g5 c9
+e2 e8 e3 e7 e4 c4v e5 h8h d4h d5h f4h d7 f5 f5h h4h f8h g5 c7 c6h d8h a6h e7v h5 f6v h6 d7 h7 e7 h8 g7v h7 c2v a2v e6 h6 d6 g6 c6 g7 c5 g8 c4 f8 b4 a4v b3 f7 b2 b1h b3 f6 b4 e6 b5 e7 b6 d7 a6 c7 a5 c8 a4 c9
+e2 e8 e3 e7 e4 e6 a3h a6h c3h c6v e3h f6 f6v f7 e5 e8v e6 e7h f5h d5v g3h e7 e6h d7 e5 b5h h4v d6 c4v d5 f5 d4 g5 e4 h5 f4 h6 h8h d4h g4 h7 h4 h8 g7v h7 h5 h6 h7 g6 i7 g7 i6 g8 i5 g9
+e2 e8 e3 e7 e4 b4h e5 d7h d4h d7 f4h d8v e6 d6 c6 b7h a1h d5 h4h c5 a5v b6v b5 a8h c1h b6 b7 b8v b5 b7 c5 a7 d5 a6 e5 a5 e6 a4 f6 b4 f7 f7h g7 g6v g6 f5h f6 c4 e6 d4 d3h c4 e5 d4 f5 e4 f3h d4 g5 c4 h5 d4 b3h c4 h6 b4 h7 c4 h8 b4 h9
+e2 e8 e3 e7 e4 c1v e5 e7h f5 e6 f6 f6v f4h c7h f5 d6 d4h g5h b4h h4v a7v a8h g5 e6 h5 e5 h4 g3v h3 b6h h2h d5 i3 c6v a2h c5 a4v b5 i4 b6 i5 a6 i6 a5 i7 a4 i8 a3 b2v b3 c3h b4 e3h c4 i9
+e2 e8 e3 e7 e4 g4h e5 e7h e4h f7 c4h e8v e6 f6 g6 g7h h6 h8h g6 d6v h2h f5 g5 d4v a4h h5 h5v h6 f2h h7 d2h i7 g6v i6 h5 i5 h6 i4 h7 h4 i7 g4 i8 g3 h8 f3 b2h e3 g8 d3 c2v d4 g9
+e2 e8 e3 g4h e4 e7 e5 e7h e4h f7 c4h b6v a4h e8v g7v g7 f6h g5v e6 g8 e7 g9 a7h h9 h1h h8 c7h h7 f1h i7 f7 i6 g7 i5 g8 i4 d1h h4 g9
+e2 a6h e3 e8 e4 e7 e5 f6v e4h e7h c4h d8v b5v g5h e6h d7 d5 c8h g4h d6 h1h e5 d5v f5 f1h g5 c5 h5 c6 b7h c7v i5 c7 i4 b7 h4 a7 g4 a8 f4 d1h e4 a9
+e2 e8 e3 e7 e4 e5v e5 d7 e6 d7h c4h d8v a4h e7 e4h f7 f6h f7h e7 g7 f7 h7h e7 d6v e6 h7 e5 h6 d5 h5 d6 h4 f1h h3 c6 h1v h2h g3 c7 b7h b7 a6v b6 b5h c6 g2 g1v f2 e2v f3 f3h g3 d6 h3 d5 h4 g4v h5 c5 h6 b5 g6 a5 g5 a6 g4 a7 f4 a8 e4 a9
+e2 e8 e3 e7 e4 e6 h3h h6h f3h d8h d3h c8v d6v e5 c4v d7h b5h b7h a2h d5 e5 d6 d5 c6 d4v b6 a5v b7 d6 a7 d7 a6 c7 a5 b7 a4 a7 b4 a8 a8h b8 b2v c1h c4 c8 c3 c9
+e2 f3h e3 d3h d3 b3h c3 a2v b3 h1v b2 e8 b1 f8 h3h e8 d7v e9 a1 d9 c8v e8v c7h e6v a2 e9 a3 e8 d5v e3v a4 e7 b4 a5h c4 c4h d4 e6 e4 e5 e6 e4 e7 d4 e8 c4 e9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h c8v e5 d6h c4h c6v a4h f6h e4h g5v f3h f5 h6h h2h d5 g5 f1h g4 c5 f4 c6 b7h b6 a8h b7 a6v b6 e4 b5 e3 a5 f3 a6 g3 a7 g2 a8 h2 h1h g2 b8 f2 c8 e2 d1h d2 c9
+e2 e8 e3 b1h e4 c5h e5 e7 e6 e5 e4h e7h d4v d8v f5v e7 d7 c8h a5h f7 g6h g7h d6v b7v c7 b6h d7 g7 d6 h7 c6 i7 b6 i6 a6 i5 a7 i4 a8 h4 h1h f1v g2v g4 f2h c2h a9
+e2 e8 e3 e7 e4 e6 a3h a6h c3h a5v e3h f6 f6v f7 e5 f8 e6 g8 e7 e7h h4h f3v f5h d8v d5h c8h c4v h8 d7 c7v d6 h7 g6h i7 g2h i6 c6 i5 c7 h5 c8 b8v c7 g5 b7 g4 b8 h4 b9
+e2 g8h e3 e8 e4 e7 e5 e8h e6 e5 d4h d8v f4h d6v b4h d5 a5v d6 a7v c6 e5 c8h h4h c7 d5 g3h d6 c6h a1h b7 c6 b5v b7h c7 d6 d7 d5 d8 e5 c8 f5 b8 f6 b9 g6 a9 h6 h7h g6 f7h g7 a8 f7 a7 e7 a6 e8 a5 f8 a4 g8 b4 h8 c4 c3h d4 i8 c4 i9
+e2 e8 e3 h2h e4 e7 e5 b3h e6 e5 e4h e7h c4h d8v a4h e7 g4h g7h d7 c7h f7 g7 h7 h6v h6 g6 h5 h5h f5h d5v f2h e6h d2h f6 g5 e6 f5 e5 e6 f5 f6 g5 g6 h5 g7 i5 f7 i4 b2h h4 e7 g4 d7 f4 c7 e4 b7 d4 b8 c4 b4v d4 d3h e4 b9
+e2 e8 e3 e7 e4 e6 h3h h6h f3h e7h d3h g1v d6v d8v e5h c5h f5v e7 f4 f7 g4 g7h g5 g7 a5h g4v g6 g5 g7 g4 h7 f4 i7 e4 i8 d4 c3v d5 b4h h8h h8 c5 g8 f8h f8 b5 e8 a5 a2h a4 e9
+e2 c8v e3 e8 e4 e7 e5 e7h e4h c7h c4h f7 g4h g7h e6 f6 g6 h6v g5 e6 a4h f6 h1h f1v g2v h5h f2h e5v g6 b6v f7 g3h d2h g6 b2h g5 e7 h5 d7 i5 c7 i4 c6 h4 c5 g4 b5 f4 b6 e4 b7 d4 b8 c4 a1h c3 b9
+e2 c1v e3 e8 e4 e7 e5 e7h f5 e6 f6 f6v f4h c7h f5 d6 d4h g5h b4h h4v a7v a8h a5v f8v h3h e6 f1h f6 e5 f5 d5 g5 d6 h5 c6 h4 b6 b6h c6 d6h d6 g4 e6 g3 f6 h3 f7 h2 h1h g2 f2h f2 e2v g2 e7 h2 d7 h3 c7 g3 b7 g4 b8 f4 c8 e4 c9
+e2 h1v e3 e8 e4 e7 e5 d7h d5 e6 d6 f7h c4h c5v e4h c7v a4h g4v h5h f6v f3h e5 e5v d6v d5 e6 e5 e7 e6 f7 e7 f6 f7 f5 f6 g5 f5 g4 g5 f4 g6 e4 h6 e3 h7 f3 h8 e2v f1h h4h g2h g3 h3v f3 h9
+e2 e8 e3 e7 e4 e6 a3h f4v e5 c7v c3h f6 f5h e8v h5h d7h d5h b5v d5 e6 c5 d6 a6h c6h c6 c5 d6 d5 e6 e5 f6 f6h e6 e4 e7 f8h g6v e3 f7 e2 d1h g1h e2v d2h b1h d2 f8 c2 g8 b2 h8 a2 h9
+e2 c5h e3 e8 e4 e4v f5h d4h d4 c2h c4 b4h b4 a3v b3 f8 b2 a2h f7v f9 c2 g9 d2 g8 h6h e6v g7h e7h e2 e2v e1 h8 f1 i8 f2 i7 f3 h7 h2v g7 f4 g6 g4 h6 g1h h5 h4 i5 h5 i4 h3h h4 g4h g4 f3v g3 h6 g2 f1v g3 g6 g4 g7 h4 h7 i4 i7 i5 i8 h5 i9
+e2 e8 e3 e7 e4 e6 h3h h6h f3h f8h d3h d6 e5 c8v e6 b7h c5h c4v e7 d8h b5v d7 b6h c7 d7 b7 h8h a7 c7 a6 a2h d2v b7 a5 a7 a8h a8 b3h b8 a4 c8 a3 c2v b1v c9
+e2 h2v e3 e8 e4 e7 e5 e7h f5 e6 f6 e6h e5h g6h g6 h5v g5 h4h f4h d6 d4h c6 b4h a6h c1h c5 a1h b5 f5 a5 e5 a4 d5 c5h c5 b4 d6v c4 b5 e1v b6 c2v d2h d4 f1h e4 c6 f4 c7 g4 c8 h4 d8 h3 g2h h4 d9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h e1h e5 e7h e7 f6v e5 c7h f3v g4v f5 e5 a7h e6h g5 d5v e4v g1v g2h e3h g6 e6 g7 f6 g8 f5 g9
+e2 e8 e3 e7 e4 e6 a3h f8v c3h e8h e5 d7v e3h f6 f5h c5v e6 d6h h1h b6h d5h g7h d4v g6 g3h h6 f6 g5v h4v i6 f7 i5 g7 i4 f1h i3 h7 h7v h6 h3 i6 g3 i7 f3 i8 e3 i9
+e2 g6v e3 e8 e4 e7 e5 d7h d4h b7h f4h d7 b4h d6 a5v e8v g4v f7h a8v c6 d5 c5v d5v b6 b5v b7 d6 a7 d7 a6 c7 a5 a2h a4 b7 b4 a7 c4 c2h d4 a8 e4 a9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h h8h e5 e6h e4h c6h c4h a6h d5v g3v h7v f3v f6 f6v f5 f8h g1h g5h g5 e5 h1v f5 e1h h5 i5 g5 i6 g4 h6 g3 h7 g2 h8 h2 g8 h3 f8 i3 e8 i2 e9
+e2 g2h e3 e8 e4 e7 e5 e7h f5 e6 f6 f6v f4h c7h f5 h4v d4h g5h h3h d6 e5 c6 d5 c4v g4v b6 a1h c2v b4h b6v a5v d5h a7v b7 e5 b8 f5 b9 f6 a9 e6 a8 d6 a7 c6 a6 c5 a5 b5 a4 b6 a3 b7 b3 b8 b2 b2v b3 b9
+e2 e8 e3 f2v e4 c2v e5 e7 e6 e5 d4h e8v f4h d7h h4h e7 b4h d7 b7v c7 c6h b5v c8h c8 e7 d8 d7 c7v e6h f7h g6h e8 e7 e9 f7 d9 g7 c9 h7 b9 h8 b8 a3h b7 h9
+e2 f4v e3 e8 e4 e7 e5 c8h e4h f8v c4h f7 e6 e8h f6h e7 a4h g7h g5h e5v h2h e3v e8 f7 e7 g7 f7 h7 g7 g6v f7 i7 e7 i6 d7 i5 c7 i4 b7 a7h c7 c7h f1h h4 d7 g4 e7 g3 e8 g2 d8 h2 h1h g2 c8 f2 b8 e2 d1h d2 c2v d3 b9
+e2 e8 e3 e7 e4 h5v e5 e7h e4h g4v c4h d8v e6 f6v d6 c7h a4h e6 e5h c6 h4h b6v d5 d6 c5 d5 g5h e5 b5 f5 b6 g5 f3h g4 d3h b4v b7 f4 b8 e4 c2h d4 b9
+e2 e8 e3 b3h e4 e7 e5 d7h c4h f7h e4h h8h a4h d6v e6v d4v g4h e6 f5 e5 f6 f5 g6 g5 h5v g7 h7 i7 h1h f8h h8 d8h g8 b8h f8 a7v e8 i6 d8 i5 c8 i4 c7 h4 b7 g4 b6 f4 a6 f3 e2v f4 a7 e4 e3h f4 a8 g4 g3h h4 a9
+e2 e8 e3 b8h e4 e7 e5 f1v e6 e5 e7 d7h d7 c6v d6 e4 e1h e3 c1h e4 d5 h4h f3v e5 a1h f6v e5v c8v c5 e6 c6 e7 c7 d6h f5h f7 b7 f8 e4h g8 g6h h8 b6h a7h c7 h6v c8 i8 b8 i7 a8 i6 g1h i5 a9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h f6h d1v h6h d5v d7h e5v e7v c6h b7h a5h a6h f3v g3v a8v e3h g1h c8h e5 e4 e6 f4 e7 f5 d7 g5 c7 g4 b7 g3 a7 g2 a8 f2 a9
+e2 e8 e3 e7 e4 g1v e5 d7h d5 e6 d6 f7h e4h f6 c4h b7h g4h a6v a4h h7h h1h g6 c6 h6 b4v g5v b6 i6 b5 i5 a5 i4 a6 h4 a7 g4 a8 f4 f1h e4 d1h e3 c2v a8h b8 c8h c8 e8h d8 d3 d3h e3 e8 f3 f8 f4 g8 e4 g9
+e2 g4v e3 e8 e4 e7 e5 d7h d4h b7h f4h d7 b4h f7h e6 d6 h5h e8v c6 b6 a5h c6v h7h c5 a1h c1v a8v b5 c7 a5 b7 a4 a7 b4 a8 c4 c3h d4 d3v c4 a9
+e2 e8 e3 b5h e4 e7 e5 h2v e6 e5 d4h c6v f4h c8v e7 d7h b4h f7h a3h h7h b3v f5 f5v f6 e6h d5h d7 e6 d6 d7 e6 e7 f6 f7 f5 g7 e5 g6 d5 h6 c5 h5 b5 h4 a5 h3 a6 g3 a7 g2 f1h a7v a8 a8h a7 f2 e2v f3 a6 f4 b6 e4 d3h d4 b7 c4 b8 c3 c8 c2 c9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h f6h d1v h6h d5v d7h e5v e7v c6h b7h a5h a6h f3v g3v b8v e3h f1h g7v e5 e4 e6 f4 e7 f5 d7 g5 c7 g4 b7 g3 a7 g2 a8 h2 a9
+e2 e8 e3 e7 e4 a3h e5 e7h c3h d6v d4h e3h f4h d3v g5v f8v g7v f6h e6 f7 e7 g7 f7 g8 h1h e2v e6v g2v g7 g9 g8 h9 g9
+e2 e8 e3 e7 e4 e6 h3h e5 e6 d6h f3h a3h d3h e8v c4v e6v b5h b6h d6 d5 e4v a7h c6 c7h b6 d6 a6 c6 a7 b6 b7 d8h c7 b8h d7 d2v b1h a6 e7 a5 e8 a4 b3v b4 d8 b5 c8 c5 a1v c4 b8 c3 a8 c2 c2v b2 a9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h f6h d1v h6h d5v d7h e5v e7v c6h b7h a5h a6h f3v g3v a8v e3h g1h f7h e5 e4 e6 f4 e7 f5 d7 g5 c7 g4 b7 g3 a7 g2 a8 f2 a9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h b7h e5 d7h e4h c8v c4h f6 e6 g6 g4h g5 d6 g6 c6 f7h b6 a8h a6 h6 a7 a7v a6 c5v e1v a4h b6 g6v h5v h7 h7v h8 b7 h9 c7 i9 d7 i8 f3h i7 e7 i6 f7 i5 f6 i4 g6 h4 g5 g4 h5 f4 h6 e4 h7 e3 h8 f3 g2h g3 h9
+e2 e8 e3 e7 e4 e6 h3h h6h f3h g4h d3h d6 e5 d8v e6 d7h c5h e5v c6 b7h b6 c6 a1h a6v b5 a4v b4 b6 a5h e7v c4 e4h b3v c6 d4 d6 c1h e6 e4 e5 f4 d5 g4 c5 c3v c4 h4 c3 b2h c4 i4 c5 i5 b5 h5 b4 h6 b3 g6 a3 g7 a2 g8 b2 g9
+e2 e8 e3 e7 e4 e6 a3h a6h c3h g2h e3h f6 f6v f8v f5h e6 d5h c6h g3h e4h h4v h7h d4 d6 d5 c6 c5v b5v d3v g6h e5 g8h f5 g5v g5 c5 g4 c4 h4 d4 h5 d5 h6 e5 i6 f5 i7 g5 h7 g4 g7 h4 g8 h5 h8 h6 i8 i6 i9
+e2 e8 e3 e7 e4 e6 a3h a4v e5 h3h e7 e7h e5h d8v c5h g7h g5h c7h a5h f6 f5v f7 f3h g7 d7 b7v d6v g6 d6 h6 c6 i6 b6 i5 b7 a7v b6h i4 b8 h4 g3v h5 b9
+e2 h8h e3 e8 e4 e7 e5 e7h d4h d7 f4h c7h f5 g7h f6 d6 b4h a8h h4h d5v c5h c6h f7 c6 e7 b6 h7v a6 d7 a5 c7 a4 b7 c1v a2h c3v b8 c8h c8 a3 d8 b3 b1h c3 e8 c2 e9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h b3h e5 e7h e7 c7h e5 f6v f3v g5h c4h e4 g4h a7h d1v e5v e3 a4h g2h h6h h1h f4 e4 f5 f4 g5 f5 h5 g5 i5 h5 i4 i5 h4 i6 g4 h6 g3 g6 h3 g7 i3 g8 i2 f1h h2 g9
+e2 e8 e3 e7 e4 h3v e5 e7h f5 e6 f4h d4v f6 e6h e5h c6h c5h g6 h6 h6h h4h a6h e4v d2v a1h b3v b2h g6v c3h f6 h5 e6 g5 d6 g6 c6 g7 b6 g8 a6 g9
+e2 a1v e3 e8 e4 e7 e5 e7h f5 e6 f6 c7h f4h g7h d4h d6 c5v h4v h3h h6v g4v b6v b4h d7 a2h a8h a5v d6v c2h c7 e2h c6 e6 e5h f6 c5 g6 b5 g5 b6 f5 b7 e5 a7 d5 a6 d6 a5 d7 a4 c7 a3 c6 b3 c5 c3 b5 d3 b6 e3 b7 f3 b8 g3 c8 g2 c9
+e2 e8 e3 e7 e4 e3h c3h f7 e5 e8v f4h d7h h4h d4v a3h f7h f6h c7v e6v g7 e5h h7 f5 h6 g5 h5 g4v h6 g6 h8h h6v f6 g2h e1v h6 g6 h7 g5 h8 f5 g8 e5 g9
+e2 e8 e3 e7 e4 e6 a3h e7h e5 e8v c3h d7v d5 f5h d6 e5 e4v c6h e3h e6 g6v e7 e6 f7 f6 g7 e6v g8h g6 f7v g8 h7v h4v h8 h7 h6 h1h f2v g3h h2h h5 i6 h6 i5 i6 i4 i7 i3 i8 h3 i9
+e2 e8 e3 e7 e4 c4h e5 f7 e6 e7h f5h e8v h5h d6v e6h h8h e4h g7 f4v c5h a5h g6 g6v g3h a1h c1v f6 e6 g6 e5 g7 d5 g8 c5 b3h b5 b4v a5 g9
+e2 g7h e3 e8 e4 e7 e5 e7h d4h d7 f4h c7h h4h c8v b4h c7 b6v c5v a5v a8h a7h h8h f5 c6 g5 c5 g6v b5 h5 b6 i5 b7 i6 a7 i7 a6 i8 a5 h8 a4 g8 b4 a2h c4 c2h f8h f8 d4 e8 e4 e9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h f6h d1v h6h d5v d7h e5v e7v c6h b7h a5h a6h f3v g3v a8v e3h f1h b4v e5 e4 e6 f4 e7 f5 d7 g5 c7 g4 b7 g3 a7 g2 a8 h2 a9
+e2 g4h e3 e8 e4 e7 e5 e7h e4h f7 c4h e8v e6 f6 g6 g7h h6 h8h g6 d6v h2h c6h e6 g6 e5 d4v a6h h6 f2h d2v f5 h4v f6 i6 g6 i5 h6 i4 i6 i3 i7 h3 f3h g3 i8 f3 e2v g3 h8 h3 g8 h4 g9
+e2 e8 e3 e7 e4 f4h e5 d7 e6 d7h c5h e6v d6h d8v a5h b6v d4h c7 c4v f5h h5h c6 h1h b8h f1h c8v a6v d1v d6 e6 c6 e5 c7 f5 c8 g5 b8 h5 a8 h4 a9
+e2 b5h e3 e8 e4 e7 e5 a3h e6 e5 d4h e8v f4h d7h c5v e7 h4h d7 e7 c7 d7 c7v e7 e6v e6 e5h d6 b7 d5 b6 a6v b7 e5 b8 f5 a8 g5 g5h h5 a7 i5 a6 i6 a5 c3h h8h e3h h3h h6 a4 b3v b4 h7 b5 g7 c5 g8 c4 g9
+e2 e8 e3 e7 e4 b7h e5 d7h e4h f7 c4h f7h a4h h7h d5 a8h c5 f6 b6v g6 b5 h6 h5h f5v a5 g6 a6 g5 a7 g4 a8 g3 b8 e3v g2h e1v c8 h3h f1h g1v c9
+e2 e8 e3 h2h e4 e7 e5 d7h d5 e6 d6 d2h c6 c6h d6 e5 e6 d5 c4h a6h b5v e6h e4h e3v g4h g6h f6 f6v d4v e1v d5h c5 h4v c6 g2v d6 f5 e6 g5 f6 h5 f5 h6 g5 i6 h5 i7 h6 i8 i6 i9
+e2 e8 e3 e7 e4 g7v e5 d7h d6h c4v f6h c8v a3h d7 c3h c7 b6h b7 a7v g5v e6 d5v e5 g3v e4 b8 d4 d4h h1h f2h e4 d2h e3 c8 d3 c7 c3 d7 c2 e7 d2 f7 e2 f8 f2 g8 f8h f8 g2 e8 h2 e9 h3 f9 h4 g9 f1h h9 h5 h8 h6 h7 h8 h6 d1h h5 h9
+e2 g3v e3 e8 e4 e7 e5 d7h d5 e6 d6 f7h c4h f6 e4h b7h c6 a6v g4h a4v a3h f6v h3h e6 d6 c6 e6 e5h b5v c7 d6 c1v d5 c3v e5 b7 a1h b6 b2h b5 f5 b4 g5 c4 g6 c3 h6 b3 h7 a3 h8 a2 h9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h e1v e5 b3h e7 e8 e6h e7h d7 c7h e7 f8 f7 f6v e7 g8 d7 g7 d6 h7 f3h a7h e6 h6 e5 h5 g4v g6h f2v h5v f5 h7h g5 h6 d5h g6 h6 g5 h5 f5 h4 e5 i4 d5 i5 c5 i6 c6 i7 b6 h7 c6 g7 b6 g8 b5 b5h b4 f8 c4 c4v b4 a3v b5 f9
+e2 e8 e3 e7 e4 e6 h3h h6h f3h g1v d3h d6 e5 d8v e6 e7h c5h d6v a4h d4h b6v d7 c7v d8 e5 a8h c8h d7 e6 f6v g6v e5v e7 f8h f7 d6 f6 c6 f5 c7 g5 c8 g6 b8 g7 b7 g8 b6 h8 b5 b3h c5 h9
+e2 e8 e3 e7 e4 e6 h3h a8h f3h f2v e5 d6 c5h f4v e6 d8v e7 e7h f7 f6v e5h c7h e7 c6 b5v c7 a1h b7 c1h b6 d7 b5 b4h a5 c7 a4 b7 b4 b8 c4 c3v c3 c8 c2 d2v d2 c9
+e2 e8 e3 d5v e4 e7 e5 d7h c6h c5h e6 f7h e5h e6h h7v h8h f6 f7 g6 g7v a6h f2v f4h e4v g7 g6 f7 f3h h4v h6 e7 h5 d7 h4 c7 h3 h2v h4 c8 h5 g2h h6 c9
+e2 g7v e3 e8 e4 e7 e5 d7h d6h c4v f6h c8v a3h d7 c3h c7 b6h b7 a7v g5v e6 d5v e5 g3v e4 b8 d4 d4h h1h f2h e4 d2h e3 c8 d3 c7 c3 d7 c2 e7 d2 f7 e2 f8 f2 g8 f8h f8 g2 e8 h2 e9 h3 f9 h4 g9 h5 h9 h6 h8 f1h h7 h8 h6 d1h h5 h9
+e2 e8 e3 e7 e4 f4h e5 d7 e6 d7h c5h e6v d6h d8v a5h a8h d4h c7 c4v f5h h5h c6 b6v e3v h1h e1v d6 e6 c6 e5 c7 f5 c8 g5 g2h h5 f3v h4 c9
+e2 e8 e3 e7 e4 e6 a3h g5v e5 h5h e7 d6 d5h c6 b5h d7h b6v c7 f5h c8 f7 e8h g7 g8h h7 h7h g7 b8 g8 a8 c3h a7 f7h f4v f8v a6 h8 a5 i8 b5 e2h c5 c2h d5 i9
+e2 h3v e3 e8 e4 e7 e5 e7h f5 e6 f4h d4v f6 e6h e5h c6h c5h g6 h6 g6h i6 h8h a6h f5v i7 f1v i8 f3v h1h h6 h8 h5 g8 i5 h5v i4 g2v i3 g9
+e2 c7v e3 e8 e4 a1h e5 e7 d6h f7 f4h h4v h3h e8v g3v d7h f6h f7h d4h b6h b4h g7 e6 h7 d6 h6 c6 g6 b6 a6v b5 f6 h7h a8h a5 b8v a6 e6 d5h d6 a7 c6 b5h d6 a8 e6 b8 f6 b7 f5 c7 e5 c8 d5 c9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h f6h d1v h6h d5v d7h e5v e7v c6h b7h a5h a6h f3v g3v a8v e3h g1h b4h e5 e4 e6 f4 e7 f5 d7 g5 c7 g4 b7 g3 a7 g2 a8 f2 a9
+e2 e8 e3 e7 e4 g6v e5 d7h d4h b7h f4h d7 b4h d6 a5v e8v g4v f7h a8v c6 d5 c5v d5v b6 b5v b7 d6 a7 d7 a6 c7 a5 a2h a4 b7 b4 a7 c4 c2h d4 a8 e4 a9
+e2 e8 e3 e7 e4 e1h e5 e7h f5 e6 f6 f6v f4h c7h f5 h4v d4h g5h h3h d6 e5 c6 d5 c4v g3v b6 a1h c2v b4h b6v a5v d5h a7v b7 e5 b8 f5 b9 f6 a9 e6 a8 d6 a7 c6 a6 c5 a5 b5 a4 b6 a3 b7 b3 b8 c3 b2h b3 b9
+e2 b7v e3 e8 e4 e7 e5 f5h e6 e5 d4h d5h e5v a4h b3v h5h c2h d5 e2h c5 e7 c4 e8 d4 g2h e4 h1h e8h c8v d7v f8 f7v f7 f4 f6 g4 g6 h4 h6 h6v e6h g4v h7 i4 h8 i3 f1h i2 h9
+e2 e8 e3 e7 e4 c5v e5 e7h d4h d3h f4h d7 c7v d8 c8h e8 g7v e9 a8h f8h e8v e8 d6v e5h h8h d8 d5 d7 g4v d6 d7 d5 d8 e5 e8 f5 e9
+e2 e5v e3 f2h e4 e8 e5 e7 e6 e5 e4h e7 e8 d8h e6h e8v c6h e7h h2h f7 a6h c7v g6h g7h d2h g7 d8 h7 d7 i7 e7 i6 f7 i5 g7 h5 h7 h4 i7 g4 i8 f4 b2h e4 a1h d4 h8 c4 c1h b4 h9
+e2 f1h e3 e8 e4 e7 e5 e7h f5 e6 f6 f6v f4h c7h f5 g6h d4h g5v h5h d6 b4h c6 a5v c7 b6v c5v a7v c6 f6 c5 e6 b5 d7v b6 d6 b7 b8h b8 d7 c8 c7 d8 c6 d9 c5 c9 b5 b9 b6 a9 b7 a8 b8 a7 c8 a6 d8 a5 a2h a4 d9
+e2 a7h e3 e8 e4 e7 e5 e5h e4h f7 c4h g7 g4h c7h g5v e7h h6h c5h f6v g6 f5 g7h g5 f5 g6 e5 g7 d5 h7 c5 i7 b5 i8 b4 b3h a4 a1h h8h h8 c1v g8 f8h f8 c3v e8 a3 e9
+e2 e8 e3 e7 e4 c6v e5 e1v e6 d7h e5 e6 d5 c4v d4 d8v d3 c2v d1h e5 e4h d5h e3 e5v f1h g4h f3 g3v g3 d5 g2 d4 e3h e4 h2 f4 f3v e4 h3 d4 d3v d3 i3 d2 i4 e2 i5 e3 i6 f3 i7 f2 i8 g2 i9
+e2 f8h e3 e8 e4 e7 e5 d8h d4h d5v f4h h8h h4h c7v c1h d7 b4h e6h f5 d6 g5 g5h h5v c6 f5 b6 f6 g7h g6 f6v g7 b6h h7 b5 d3h a5 i7 a4 i8 a3 h8 b3 g8 b2 a1h c2 f8 d2 d2v d3 b3h c3 e8 b3 d8 a3 d7 a4 d6 b4 c6 c4 b6 d4 a6 e4 a7 f4 a8 f3 a9
+e2 e8 e3 g7h e4 h3h e5 e7 e6 e7h d7 c7h f7 e6 g7 g6v g6 e5 d4h f5h g4v c6v f4h b4v d5v b5h e6h b2v g7 e6 f7 f6 e7 g6 d7 g7 d6 f7 d5 e7 c5 d7 c4 d6 c3 d5 c2 c5 c1 c4 b1 c3 c2v c2 c1h c3 f2v c4 b2 d4 b3 e4 b4 f4 a4 g4 a5 g3 a6 g2 f1h g3 a7 g4 a8 f4 b8 g4 b9
+e2 e8 e3 e7 e4 e6 a3h c4v e5 d7h d4h a2h e5v d8v f6h f7h h6h b4v c2h d6 e2h c6 e6 c5 e7 c4 f3v c3 c6v d3 f7 d4 g7 e4 h7 h8h h8 f8h g8 f4 f8 f5 e8 g5 g4h h5 e9
+e2 b7h e3 e8 e4 e7 e5 d7h e4h f7 c4h f7h a4h f8v g4h g7 g6v f5v h5v h8h d5 g6 h7h g5 c5 a8h b6v h5 b5 h6 a5 h7 a6 i7 a7 i6 a8 i5 b8 i4 c8 h4 h1h c8h d8 h3 e8 g3 f1h f3 e9
+e2 e8 e3 e7 e4 g8v e5 d7h c4h f7h e4h f7 g4h g7 d5 b7h d6 a6v h2h g6 c6 g7 c5 g6 b5 b2v h8h a4v a2h b4v b4 h6 b3 g5v a3 i6 f2h a8h d2h i5 a4 i4 a5 h4 a6 g4 a7 f4 a8 f3 b8 e3 d3h f3 c8 f4 c1h f3 c9
+e2 e8 e3 e7 e4 c7v d6h f7 f6h f8 h3h f3v d4 f9 c4 c4h f1v d7h d4 e8v e4 g9 e5 h9 e4h h8 e6 h7 g4h b6h h5h e6v a5h h6 h6h a7h d6 f5v c6 b8h b6 g6 a6 g5 a7 h5 b7 i5 c7 i4 c8 h4 b8 g4 a8 g3 g1h g2 a9
+e2 e8 e3 e7 e4 e8 e5 f8 e6 d7h f5h e6v h5h d5v e4v c6v c2h a2v a3h e8 b3v d8 c4h a8h e7 c8 d7 c7 d6 c6 b5h b6 c8v a6 d5 a5 c5 c3h b5 c5 a5 d5 a6 d6 a7 d7 b7 e7 b8v e6 c7 e5 c8 e4 c9
+e2 e8 e3 e7 e4 g5h e5 e7h d4h d7 f4h c7h h4h c8v b4h c7 b6v c5v a5v b8h f5 c6 f6 f6v f5 h5v f6 b3v a1h c1v e6 c5 e7 b5 d7 b6 c7 b7 c6 a7 c5 a6 b5 a5 b6 a4 b7 a3 a7 b3 b2h a3 a8 a2 a9
+e2 e8 e3 e7 e4 b8h e5 e7h f5 e6 f4h c1v d4h c7h c5v h4v g5v g7h h6h c8v f6 e7 d6v e6 e5h g6 a7h f6h e6 h8h e7 f8h b4h g5 f7 f5 g7 e5 h7 d5 i7 d6 i8 d7 h8 c7 g8 b7 f8 b6 e8 a6 a5h b6 e9
+e2 e8 e3 b1v e4 e7 e5 e7h f5 e6 f6 d5h f5h d6 c5v c7h c6h e8v h5h f7v a1h e6 c2h e7 g6 d7 g7 g7h d7v c7 h7 b7 i7 b6 b4h a6h a3v d4v i8 h8h h8 b5 g8 a5 e2h a4 g9
+e2 e8 e3 e7 e4 e6 a3h f8v c3h h6v e5 e7h e3h g7h e6v d4v h5h e4 f3v f4 f5v c7h e6 f5 d6 f6 c6 b6h b6 a5v b5 f7 b4 a8h g2h g7 a4 g6 d6h h2v a5 g5 a6 g4 g3v g5 a7 h5 b7 i5 b8 i4 c8 i3 c9
+e2 c8v e3 b1v e4 e8 e5 e7 e6 e5 e4h c7h c4h e7h a4h f6v e5v e7 g4h g5h h1h f7 f1h e7 g6v f7 h7h b6v d6 f6 c6 c5h d6 f5 e6 g5 e5 h5 d5 i5 c5 i4 b5 h4 b6 a7v b8v g4 b7 f4 b8 f3 b9
+e2 e8 e3 e7 e4 c8v e5 d7h e4h e5v c4h e7v f6h h6v g5v b7h h5h d7 d5 c7 b6h a5v c5v b7 d6 a7 d7 a6 c7 a5 b7 a4 a7 b4 a8 b3 a1h c3 c1h d3 e1h a8h b8 e3 c8 f3 c9
+e2 e8 e3 e7 e4 e6 a3h d2v e5 e6h d4h h4h f4h f5v c5v c7h b6h a8h d6 d7 e7 e7h f7 f7v e7 c7 c3h a4v d7 c8h b7 a7 b8 a6 c8 b6 d8 c6 e8 c5 e3h c4 h2h d4 g3h e4 f2h f4 e9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h d6h d5v f6h d1v c4h f3h a4h e5h h7h f4 f6 g4 f7h g5h g6 h5v h6 h4 h7 i4 d7h a7h i7 i5 c8h g2h b7v i6 i5 i7 i4 h7 h4 g7 g4 f7 f4 e7 e4 d7 e3 c7 f3 c8 g3 d8 h3 e8 i3 e9
+e2 f5h e3 e8 e4 e7 e5 e6v c3h e2h d5 e6 d6 e5 e4v d8v d4h c7h a3h d6v h5h a4v c5v b6v d2v d5 e5 e7h d6 b8h d7 d6 c7 d7 c6 c7 c5 c6 b5 c5 f3v c4 b6 d4 b7 e4 b8 e3 g2h f3 a8 f4 h1h f5 a9
+e2 e8 e3 e7 e4 e6 a3h e7h e5 h3h d4h e8v f4h d6 b4h g7h f5 c6 f6 d6 g4v c7h a5v a8h b8v c6 g6 c6v c3h b6 h5h f6h h7v b7 h6 a7 i6 a6 i7 a5 i8 a4 i9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h a3h e5 h5v e7 e7h e5h e8v g5h f6v c5h c7h h6h d5v d7 b7v c1h d1v a5v e7 a7v c7 c6 b6 b7 b5 b8 c5 c4h b5 b9
+e2 c2h e3 e8 e4 e7 e5 e7h f5 f6h d6h d7 c7v d8 e5 d9 d5 a8h c5 c9 c6 c8 h6h a2v a1h b6v a7h c7 c8 c6 e2h g2v c5h d6 e5h e6 g5h f6 h4h g6 c9
+e2 e8 e3 e7 e4 e6 a3h f8v c3h e8h e5 d7v e3h f6 f5h c5v e6 d6h h1h g7h f1h g6 h5h f6 d3v g6v g3h b6h e5 e6 d5 e5 d4 f5 c4 g5 b4 g4 b5 a8h d1h h4 b6 a5v b5 i4 b4 i3 a4 i2 a5 h2 a6 g2 a7 f2 a8 e2 b8 d2 c8 c2 c9
+e2 e8 e3 e7 e4 e6 h3h h6h f3h e8h d3h d6 c6v d7 e5 d8v e6 d8 a4h c3v c5h c7h d4v e6h e5h c8 f7v b8 f6 b7 g6 b6 g7 g7h h7 b5 i7 h8h i8 c5 h8 b3v g8 c4 c1h c3 g9
+e2 e8 e3 e7 e4 d8h e5 f8h d4h d5v f4h h8h h4h c7v c1h d7 b4h e6h f5 d6 g5 g5h h5v c6 f5 b6 f6 g7h g6 f6v g7 b6h h7 b5 d3h a5 i7 a4 i8 a3 h8 a2 a1h b2 g8 c2 f8 d2 d2v d3 b3h c3 f7 b3 e7 a3 d7 a4 d6 b4 c6 c4 b6 d4 a6 e4 a7 f4 a8 f3 a9
+e2 e8 e3 h5v e4 e7 e5 e7h e4h g4v c4h e2h a4h d8v e6v d6v f5v h6h h1h e6 d5 e5 d6 f5 d7 c7h c7 f6 b7 a7h c7 g2v c6 f7 c5 g7 d5 g6 f1h g5 e5 g4 d1h f4 f5 e4 d3v e3 f6 f3 f7 g3 g7 g2 g8 f2 c2v e2 g9
+e2 c8v e3 e8 e4 e7 e5 e7h e4h c7h c4h f7 g4h g7h e6 f6 g6 h6v g5 e6 a4h f6 h1h f1v g2v h5h f2h e5v g6 b6v f7 g3h d2h g6 e7 g5 b2h h5 d7 i5 c7 i4 c6 h4 c5 g4 b5 f4 b6 e4 b7 d4 b8 c4 a1h b4 b9
+e2 b5h e3 e8 e4 e7 e5 d7h e4h e7v c4h d8v a4h e6 f5v f7h g6h h8h f5 f6 f7 h7h f5 f7 e5 g7 d5 h7 d6 b7h c6 i7 b6 a6v c6 d5h d6 i6 e6 i5 f6 i4 f5 i3 e5 i2 h1h h2 f1h g2 f3h f2 e2v g2 d5 g3 c5 h3 b5 h4 g4v h5 a5 h6 a6 g6 a7 g5 a8 g4 a9
+e2 g1h e3 a7h e4 e8 e5 e7 e6 e5 e4h e7h c4h c7h a4h f6v f5 g5 g4h h3v h5v h8h e8v h5 g8v h6 g5 f5h h5 h7 h6 i7 g6 i6 g7 i5 g8 i4 g9
+e2 e8 e3 f6h e4 g5v e5 e7 e6 e5 e7 e7h d4h c7h f4h f7v h6h b4v a5h c6v d5v e6 d7 e7 d6 d7 d5 d3v b2h d6 c5 d5 c6 c5 c7 a3h a1h d1v d2h c4 b7 c3 b8 b3 b9
+e2 e8 e3 e7 e4 e6 h3h h6h f3h f5v d3h d6 c6v d7 e5 e6h c5h d7v d4v e5h f5 f4h e5 d8 e4 c8 f4 b8 a6h c8 b7h b8 g4 a8 h4 a7 h5 b7 h6 c7 g6 c6 g7 b6 g8 g8h f8 e8h g8 g7h f8v b5 h8 b4 i8 b3 a2h c3 i9
+e2 e8 e3 d2v e4 e7 e5 d7h d4h d7 f4h f5h h4h d8v c6h b7h a1h c1v e6 e6v e5 c7 f5 c5v g5 b7 h5 h5h g5 c3v f5 b6 a5v b5 b4h b6 e5 b7 e6 a7 e7 a6 d7 a5 c7 a4 b7 b4 a7 b3 a8 c3 b2h b3 a9
+e2 e8 e3 e5v e4 f2h e5 e7 e6 e5 e4h e7 e8 d8h e6h e8v c6h e7h d8 c7v h2h g7h g6h h8h a6h f7 d7 g7 e7 h7 f7 i7 g7 i6 h7 i5 i7 h5 i8 h4 h8 g4 d2h f4 g8 e4 b2h d4 a3v c4 b4h d4 g9
+e2 e8 e3 e7 e4 c7v d6h f7 f6h f8 f3h c2h a2h h6v g7v f9 d4 d7h h8h c4v d3v e9 d5 d5h e6v d9 d4 c9 d3 c8 c3 c7 c4 c6 c5 c4 b3h a5v a6h b4 c6 b8h c7 a4 b7 a7h c7 a3 c8 b3 b8 c3 a8 d3 a9
+e2 b2v e3 e8 e4 e7 e5 d7h d4h d7 b4h b7h f4h f7h a1h c7 e6 c6 a5h f8v c5h b5v g5v d6 g6h f6 h7v e6v e5 f7 d6v g7 f5 e5h g5 h7 g6 h8 f6 h9 f7 i9 g7 i8 h7 i7 h8 i6 h9
+e2 e8 e3 e7 e4 e4v f5h c7h e2h e6 c2h e7h a2h a7h h5h c3v f3v g7h e5 e4 e6 h8h f6 e3 f7 f3 g7 f4 h1h f5 g2h f8h h7 d8h i7 b8h i8 g5 h8 h5 g8 h4 f8 i4 h3h h4 e8 g4 d8 g3 c8 h3 b8 i3 a8 i2 f1h h2 a9
+e2 e8 e3 e7 e4 e6 a3h a6h c3h f8h e3h f6 f6v f7 e5 f8 h5h e4v e6 d6h f7h e8v f6 g8 e6v h8 f5 h7 g5 g4v g6 h6 g7 g7v g6 g5 h6 g4 h7 g3 g2h h1v h8 h3h e2h h3 h9
+e2 e8 e3 e7 e4 e6 h3h h6h f3h g4v d3h d6 c6v c8v c5h e6 e5h f6h b3h a4h e5 f6 e6v d5v e4 g6 d4 g5 c4 g4 c5 f4 b5 e4 b6 a6v a5h b7v b7 d4 b5v c4 b8 b4 b9
+e2 e8 e3 e7 e4 a3v e5 d7h d5 e6 c4h e4v d6 c6v d3v f6 h1h e6 d5 f6 f1h d8v c5 b5h b5 a5v e2h f5 c5 f4 d5 d5h a4h g4 g2h h4h d1h f3h e5 h4 e4 h3 e3 i3 f3 i2 g3 h2 h3 g2 h4 f2 g4 e2 g5 d2 c2v d3 g6 d4 g7 c4 g8 c3 b1h c2 g9
+e2 e5h e3 e8 e4 e7 d4 c7h c3h h1h a3h f7 d5 a7h f1h e7h e3h g7 g5h e6v h4h f5v d4 h7 e4 h7h g3h h6 f4 d2v g4 i6 g5 i5 e1v f2h g1v h5 i5 g5 i6 g4 i7 h4 h7 i4 h3v i3 g7 i2 g8 h2 g9
+e2 c2v e3 d3h f3 f3h f2 e8 d2h e7 e1v f6h g2 e6 h6v e5 h2 h5h h3 f5h c4v a5h h4 c5h g4 f5 g5 f4 f5 h2h e5 d6h g1h g4 e6 h4 d6 h3 c6 g3 c7 f3 c8 f2 c9
+e2 d5h e3 e8 e4 e7 f4 f7h f3h d7h d3h a2v h3h h7h d6v f6v e4 b5h a4h f7 e5 f6 e5v f4v d5 c5v d4 b3h c4 f5 c5 f4 b5 e4 a5 d4 a6 c4 a7 b4 a8 a4 a9
+e2 d6v e3 e8 e4 e7 h3h d4v f3h e8 e5 d8 e6 e6h c6h d8v b7v c8 b8h g6h d3h d8 f6 f5v f5 d9 f4 c9 g4 b9 h7v a9 g5 a8 h5h a7 g6 a6 h6 a5 i6 a4 a2h b4 i7 c4h i8 b3 c2h c3 i9
+e2 e8 e3 e7 e4 e6 h3h h6h f3h f6 d3h c8v e6v e4h f5h f7 d4 c4h b3h f8 c4 e8 b4 a4h c4 c6v d4 g5v a1h e7 e4 e6 f4 e5 g4 f5 g5 g4 f5 f4 e5 e4 c1h d4 e6 d7h d6 c5h e6 b6h d2h c4 e5 b4 d5 a4 c5 a3 b5 b3 a5 c3 a6 d3 a7 e3 e2v d3 a8 c3 a9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h b5h e5 d7h d4h f7h c5v e8v d1v f6 f4h b7h e6 g6v g6 g5h h4v f5v g7 a7v a2h e6 f7 e7 d7 c7 b7 b6 a6 a5 b3h b5 a7 c5 b4h b5 a8 a5 a9
+e2 a3h e3 e8 e4 e7 e5 e7h c3h d6v d4h c5h f4h b4v f5 e6 f6 f6v f5 g5h h3h e5 g5 d5 h5 g4v i5 c5 i6 c4 i7 d4 i8 e4 h8 e3 d1h f3 f1h d2v f2v g8h i8 f4 i9
+e2 b5h e3 e8 e4 e7 e5 d7h e4h f7 c4h f7h a4h f8v g4h g7 g6v f5v h5v g8h d5 g6 d6 c6v d5 a5v e5 g3v h1h f1v e6 g5 e7 h5 f7 h6 g7 h7 g6 i7 g5 i6 h5 i5 h6 i4 h7 i3 h2v i4 i7 h4 i8 h3 i9
+e2 e8 e3 e7 e4 e6 a3h a6h c3h g6v e3h e8v e5 f7h e7 d7h d7 c6v d6 f6 d5 c4v g3h h2v f5h h4h e5v d6v e5 f7 e4 e7 f4 e6 f5 e5 e4h d5 g5 d4 h5 e4 h6 f4 h7 g4 h8 h4 h9
+e2 e8 e3 e6v e4 e7 c3h e8 e5 b7v e6 e7h a3h d8v f4h h4v d5h f8 c4v g8 a8h g7 e7 g6 d7 h5h d8 g5 h1h h5 f1h c2v f2v h4 g3v h5 d9
+e2 e8 e3 e7 e4 e6 h3h g7h f3h e7h e5 h1v d6v d8v d3h c5h e5h b4v f5 f6 g5 g6 g5h h6h a5h h6 f7v h8h h5 i6 i5 i4 i6 h4 h6 g4 e3v g5 f5v g4 g6 f4 g7 f5 h7 e5 i7 d5 i8 d4 h8 c4 g8 c3 g9
+e2 e8 e3 e7 e4 a8v e5 d7h e4h c4v d5v d2h c6h f7h a6h f7 e6 f6 f5v h6h e7 f7 g7 e3v h1h e1v g4h h7h e7 b7h h3v g7 d7 g6 c7 g5 b7 h5 g2v i5 a7 i4 a8 i3 a9
+e2 d4h f2 e8 f3 d8 f4 f4h e4 d8v a1h d7 d4 d6 c4 c6h h4h c6 c1h c5 c6 c4 c3v b2v e1h c3 f2v c2 b6 a6h c6 d2 d6 e2 e6 e3 e7 f3h e8 e8h g1h e4 f8 f7v f7 g2v e7 f4 d7 g4 d8 h4 d9
+e2 a5v e3 e8 e4 e7 e5 d7h d4h b4v f4h d7 h4h d8v e6 b7h c6h e6v e5 e4v a6h e5h b5h e7 d5 e6 d6 c6 e6 d6 e7 d5 d7 c5 c7 c4 b7 c3 a7 c2 c1h e2v a1h d2h a8 d2 a9
+e2 e8 e3 e7 e4 e6 a3h e7h e5 f1h c3h e8v e3h f6 h1h g6 f4h f6 e6 g7h d6 c7h e6 f5 f6 e5 g6 h8h g3h e6 g7 f6 h7 h7v g7 g4v f7 g6 d1h d6v f6 e5h b1h h6 g6 i6 g5 i5 f5 i4 e5 i3 d5 h3 d6 g3 d7 f3 e2h e3 d3v f3 c7 g3 b7 g2 b8 f2 b9
+e2 e3h d2 e8 d3 c3h e3 f2v e2 f8 f7v e4v e2h f7 e1v f6 d2 e8v c2 e6v f5h h6h b2 g4v b3 g2v b4 a4h c4 g6 c5 h6 c6 i6 c7 i5 c8 i4 c9
+e2 e8 e3 e7 e4 h2h e5 d7h d5 e6 d6 c6v c4h e4v d3v e6v e2h a4v f3v f5h g4h b5h a2h h5h b3v a7h g1h e5 e1h e4 d5 e3 c5 f3 b5 f4 b4 f5 b3 g5 a3 h5 a4 i5 a5 i4 a6 h4 a7 h3 g2v h4 b7 g4 c7 g3 c8 g2 c9
+e2 c7h e3 e8 e4 e7 e5 e7h e4h e5v c4h a7h a4h d6h f1h f7 e6 b6h g4h f6 d6 g7h c6 h6v b6 g6 a6 h6 g5h h1v h2h f6h a7 g6 b7 f6 c7 f5 d7 g5 e7 h5 f7 i5 g7 i4 h7 i3 g3h h3 h6 g3 f2v g2 g1v g3 g6 h3 f6 i3 f5 i4 g5 h4 h5 g4 i5 f4 i6 f3 i7 f2 i8 e2 i9
+e2 e8 e3 e7 e4 d6h e5 e8v d5 d1h c5 f7 f6h e6v c6 b6h b6 g7 g7v g8 a6 a7h f1h g9 a7 h9 h1h a6v a6 h8 a5 h7 b5 h6 c5 g6 d5 g5 e5 f5 g5 e5 h5 d5 h6 c5 a2h d2v b4h c5v h7 b1v h8 b5 h9
+e2 e8 e3 e7 e4 e6 h3h h6h f3h b3h d3h d6 c6v d7 e5 d8 e6 c8 a4h c3v e7 d7h b6h c8v d6h f6v f7 f7h f6 b8 f5 a8 a7h b8 e5 c8 d5 c7 f4v b7 c5 a7 c6 b8h b6 a2v a6 a5 a7 b5 b7 c5 c7 c4 c8 b4 b8 a4 a8 a3 a9
+e2 e8 e3 e7 e4 c6h e6h h6h f7v e8 f3h h3v g4v e7h a6h e4v h4h d4h d4 c3v e8h d2h c8h f2h e4 d8 e3 b4h f3 c8 g3 b8 h3 b9 h2 c9 g2 d9 f2 e9 e2 f9 d2 g9 c2 g8 b2 g7 a1h g6 a2 f6 a3 e6 a4 d6 a5 d5 b5 c5 d5 b5 d6 a5 e6 a4 f6 a3 g6 a2 g7 b2 b2v b3 g8 b4 g9
+e2 e8 e3 e7 e4 c7v d6h f7 f6h f8 f3h d4v h3h e4h c2h g8 f4 f8 a2h d7h g4 f9 g5 e9 d2v g5v g4 f2v h4 h4h g4 d9 g5 c9 g6 c8 f6 c7 b6h a7h e6 b7 d6 a7 c6 a6 c5v b5v c5 b8h c4 a5 b4 a4 a5 b4 a6 c4 a7 d4 b7 d5 c7 d6 c8 e6 b8 e5 a8 f5 a9
+e2 e8 e3 e7 e4 f2h e5 d7h e6 c6v c4h f7h e5 d5v h7v e6 h2h g6v d2h b5h a1h h6h c1h f6 e6 e5 e1h b4v e4 e3 b2h b3h d3 c3 b3 a3 a4 a2 a5 b2 a6 c2 a7 d2 g1h e2 a8 f2 a9
+e2 e8 e3 e7 e4 b4h e5 d4h e6 d7h f4h d7 h4h d8v a1h c7 c6h d6v b7v c8 b8h a5v c1h d8 f6 d9 c5v f6h h6h f7h e6 h8h e7 f8h f7 c9 g7 b9 h7 a9 h8 a8 g8 a7 f8 a6 e8 a5 e1h a4 e9
+e2 e8 e3 e7 e4 b7h e5 d7h e4h f7 c4h f7h a4h f8v g4h g7 g6v f5v h5v h8v d5 g6 h7h a8h c5 g5 b6v h5 b5 h6 a5 h7 a6 i7 a7 i6 a8 i5 b8 i4 c8 h4 h2h g4 f2h c8h d8 f4 e8 e4 e9
+e2 c3v e3 e8 e4 e7 e5 e7h f5 e6 f6 f6v f4h c7h f5 h4v h3h d6 a7h g6h h5h d5 g5 d4 d3h d5 g6 c5 h6 c4 b3h b4 a1h f3h a4v b4v c1h h8h i6 f8h i7 b5 h7 b6 h8 a6 g8 a5 f8 a4 e8 a3 e1h a2 e9
+e2 e8 e3 h6v e4 e7 e5 e7h d4h c2v f4h d7 c7v e8v h4h d8 d5 d9 d6 c9 c6 c8 c7 c6 b4h a8h c5v b7h a5v b7 a7 a6 a1h d1h b2v a3h c3h a5 a8 a4 b8 b4 c8 c4 c9
+e2 b2h e3 e8 e4 e7 e5 d7h e6 e5 e4h c3v c4h d8v a4h f7h f5v e7 e7v c6v g6h h8h h3h d7 d6v d6 e5 b7h h6v d5 c5 e5 c6 f5 b6 f6 a6 a6h b6 b6v b5 f7 c5 g7 d5 h7 e5 h8 e6 i8 f6 i7 f7 i6 g7 i5 h7 h5 h8 h6 g4h h5 g8 i5 g9
+e2 e8 e3 e7 e4 c6v e5 d7h c3h e6 e3h f6 a3h f8v f4h f7h d5 c4v e5 h2v f5 g6v g3h g5h e5h f5v d5v h8h e5 e6 e4 e7 f4 d7 g4 d6 h4 d5 h5 d4 i5 e4 i6 f4 i7 g4 h7 h4 h8 i4 g8 i3 g9
+e2 c2v e3 d3h f3 f3h f2 e8 d2h e7 e1v f6h g2 e6 h6v e5 h2 h4h h3 a5h e4v g5v c6h d5 h4 c5h c4v e5 g4 e6 f4 g2v f5 e5h g1h f6 g5 g6 f6 g5 e6 g4 e7 h4 e8 i4 e9
+e2 c3v e3 a7h e4 e8 e5 e7 e6 e5 e4h e7h c4h c7h a4h f6v f5 g5 g4h g5h f1h h5 g5 i5 h5 i4 i5 h4 i6 c1v h1h g4 f3v f2h g3h h4 h6 h8h h7 i4 g8v f8h g7 i3 g8 i2 f8 h2 e8 g2 e9
+e2 e8 e3 e7 e4 b4v e5 e7h e4h g7h c4h f7 g4h c7h e6 f6 g6 h8h a5h d8v h1h h6 h5h f6v f1h g5 a7h h5 g7 i5 h7 i4 i7 h4 i8 g4 h8 f4 g8 e4 d1h d4 b1h f8h f8 d3 e8 c3 e9
+e2 e8 e3 e7 e4 e6 a3h a6h c3h e7 e5 g7h e3h f8v e6v e8h f5 d7v h1h e8 g3h f8 g5 f7 c6h e4v g6v g5h h5 h5v h4 f2v h8v g4h i4 f6 i5 f5 i6 f4 i7 g4 i8 h4 i9
+e2 e8 e3 e7 e4 e6 a3h a6h c3h f1v e3h f6 e5 f8v e6 e7h f5h d5v g6 g7h h6 e6 e5v d7v c6h h6h d4h h8h g6 g4v g7 e7 h7 f7 i7 g7 i8 g6 h2h h6 h8 h5 h4v h6 g8 i6 f2h i5 g9
+e2 e8 e3 e7 e4 g6v e5 d7h d4h b7h f4h d7 b4h d6 a5v e8v g4v f7h a8v c6 d5 c5v d5v b6 b5v b7 d6 a7 d7 a6 c7 a5 b7 a4 a2h b4 a7 c4 c2h d4 a8 d3 a9
+e2 e8 e3 h8h e4 e7 e5 c6v d4h c8v f4h e6 b4h b5h a5v b6h b3v d7h b1v f7h f5 f6 g5v g6 g6h e5h g5 f6 e7v f7 g6 g7 f6 h7 h6v h8 f7 i8 g7 i7 h7 i6 h8 i5 g8 i4 g9
+e2 e8 e3 e7 e4 e8h e5 e8 e6 c8h f5h d5v h5h e7 f6 f6v e5v f8v d6h b7v b5h d7 c6v d8 a6v c8 f7 c7 f8 c6 e8 d8v e7 b6 d7 b7 d8 b8 c8 a8 c7 a7 c6 a6 b6 a5 b7 b5 b8 b4 a2h c4 c2h d4 e2h e4 b9
+e2 e8 e3 e7 e4 e6 h3h h6h f3h e4h d5v d3v d7v f8v f4 g4h e3v e7 g4 e8 h4 e9 i4 d9 i5 d8 i6 d7 c6h g6v b7v d8 i5 c8 b8h h4v i6 d8 h6 f5h h5 e8h g5 g8h a3h d9 f5 c9 e5 b9 e6 a9 e7 a8 f7 b8 g7 b7 g8 b6 h8 c6 i8 c5 c4h b5 i9
+e2 b7h e3 e8 e4 e7 e5 d7h e4h f7 c4h f7h a4h f8v g4h g7 g6v f5v h5v h8v d5 g6 h7h g5 c5 a8h b6v h5 b5 h6 a5 h7 a6 i7 a7 i6 a8 i5 b8 i4 c8 h4 h2h g4 f2h c8h d8 f4 e8 e4 e9
+e2 e8 e3 e7 e4 h6v e5 e7h d4h f4v f3h c7h h3h b4v a5h e6 c5v b6v e7 f7v e5 e5v e3v d6 e6 d7 e7 c7 f7 c6 f6 c5 g6 c4 h7h c3 g7 c2 c1h e2h g8 c3h h8 d2 d1v c2 b1v c3 h9
+e2 e8 e3 e7 e4 g5v e5 d7h d4h b7h f4h f7h d6v e6 h6h h7h e5h b4v a5h c6v d5 a8h c5 c8h c6 e8h c7 f6 b7 g6 a7 g5 e3h f5 a8 e5 b8 d5 c3h c5 c8 c4 d8 d4 e8 e4 f8 f4 g3h g4 g8 h4 h4v h5 g9
+e2 f6v e3 e8 e4 e7 e5 e7h f3h e6 d3h d6 h3h c8v c4h c7h f5 f4v e5 a2v d5 b7v a4h e5 c5 b5h c6v e4 b5 d4 a5 c4 a6 c2v b1h b4 a7 a4 a8 a3 a9
+e2 g6h e3 e8 e4 e7 e5 c5h e4h e5h c4h a4v b3v f7 a3h g7 h7v f8v f5 g5v g5 g3v g4h g1v d5v h7 g6 h8 f6 h9 f7 i9 g7 i8 f6v i7 g8 i6 g9
+e2 d1h e3 e8 e4 b3h e5 e7 e6 e5 e7 d7h f7 f7h h7v e4 g7 e3 c2v e4 h7 g8v h8 d4 e1v e5h h9
+e2 h6v e3 e8 e4 e7 e5 e7h d4h f4v f3h c7h h3h b4v a5h e6 c5v b6v e7 f7v e5 e5v e3v d6 e6 d7 e7 c7 f7 c6 f6 c5 g6 c4 h7h c3 g7 c2 c1h e2h g8 c3h h8 d2 d1v c2 b1v c3 h9
+e2 g5h e3 e8 e4 e7 e5 d4h e6 e7h e5h d8v c5h g7h d7 c8h a5h f7 f2h h2v h3h g7 c7 g6 d6v h6 h5v h7 b7 c4v b8 g4h f3h d2v e1h i7 b9
+e2 c4h e3 e8 e4 e4h f4 f4v f3 f2v e1v a4h f7v f8 f2 e5v f1 f9 g1 g9 g2 g8 g7h f6h h7v h2v h3h g9 g3 h9 g4 i9 g5 g5v g4 h4v h4 i8 h5 i7 h6 i6 i7 h6 f1h h5 i8 h4 i9
+e2 e8 e3 h2h e4 f3v e5 e7 e6 e5 e4h d8v d5v d7h c6h b7h e7 e6v f5v f6h d7 a6v c7 a5h b7 c4h b6 e6 c6 e7 c5 d7 b5 c7 b4 b7 b3h b6 c4 c6 d4 c5 e4 b5 e3 a5 f3 a4 f2 a3 g2 a2 a1h b2 c1h c2 d2v c3 g3 d3 d3h c3 a3v b3 g4 b2 g5 a2 g6 a3 h6 a4 h7 a5 h8 b5 h9
+e2 e8 e3 e7 e4 f5v e5 g6v e4h f7 d5v d8v c6h e8h g5h c7h e6 f8 e7 g8h h7h f7 e6v b8h e8 f8v f7h c8v e7 a7v a3h f6 c3h f5 d7 e5 c7 e6 b7 e7 b6 d7 a6 c7 a7 b7 e3h b6 a8 c6 a9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h g6v e5 d7h c4h f7h d5 b7h c5 e5 e4h a4v a3h f5 g4h g5 d5 f5 b4v g5 h5v a6v e5 f5v e6 e6h h7v c6h d6 h5 c6 h6 b6 h7 b7 h8 c7 h9 d7 i9 e7 i8 f7 i7 g7 i6 g6 i5 g5 i4 h5 h4 h6 g4 f3h f4 h7 e4 h8 e3 h9
+e2 e8 e3 e7 e4 b5v e5 e7h e4h g7h c4h c7h a6h d8v e6v e6 d5h f6v g4h g5h h7v d6 b7v c6 f5 c5 g5 d5 h5 e5 h1h f5 i5 g5 i6 h5 i7 i5 f1h i4 i8 h4 i9
+e2 e8 e3 e7 e4 e6 a3h a6h c3h h4v e3h f6 g3h f8v h6v d7h e6h c6h f6v e4v d5v f5 e5 g5 e6 h5 f6 h6 f5 h7 g5 h8 g6 g6v h1h i8 f5h g8h g7 i7 g8 i6 h8 i5 i8 i4 i9
+e2 e8 e3 e3v e4 d4v e5 e7 e6 e7h d5h c7h f5h e6v h5h b6v b4h d7 c4v a8h a5v c8h c6h d2v d6 b3v c6 e7 c5 e6 b5 d6 a1h c6 b6 c5 b7 b5 b8 b6 c8 b7 d8 a7 e8 a6 e9
+e2 d9 e3 d8 e4 d7 e5 d5h c2h e7 f5 f5h a2h d8v f4 e4v e2h d6v g6v g4v h1h e8 f7v f8 g4 h8h e8h f7 g3 f6 h3 g6 h4 g7 g3h g8 f3v h8 h5 i8 h6 h6v h4v i7 h7 i6 h8 i5 g8 i4 g9
+e2 c5h e3 e8 e4 e4v f5h d4h d4 c4v d3 c2v d1v f8 f7v f9 e3 g9 d2h g8 f3 a5h g3 g6v h3 g3v h2h h8h g7h h3v h4 h8 h5 i8 h6 i7 f1h h7 i7 h6 i8 h5 h8 g5 h1h g4 g8 f4 e3h g4 g9
+e2 e8 e3 e7 e4 e6 a3h a6h c3h h1v e3h f6 e5 e8v e6 e7h f5h d5v g6 g7h h6 e6 h7 h6v h6 h5h d8v e5 h7 f5 g7 g5 g4h f3v h2h c7h f1h h5 f7 i5 e7 i4 d7 h4 c7 h3 g2v h4 b7 g4 b8 g3 d1h g2 b9
+e2 e8 e3 e7 e4 e6 a3h e7h e5 c7h e4h g7h g4h h8h c3h a7h d4v f6 f5 g5 f7v g6h h1h f5h e6v h5 g5 i5 h5 i4 i5 f1v i6 g3v i7 h2v i8 h4 h8 h3 g8 h2 g9
+e2 e8 e3 e7 e4 g7v e5 d7h d6h c4v f6h c8v a3h d7 c3h c7 b6h a7h b7v e5v e3h g5v h2h f4v e4 f8v f2h h3v f4 d7 f5 e7 f6 f7 g6 g7 g5 g8 g4 g9 h4 h9 h5 h8 h6 h7 h8 h6 d2h h5 h9
+e2 h4h e3 e8 e4 e7 e5 d7 e6 d7h c5h e5v e7 d8v c7 b7h b7 a8h a5h e7 e6h e7v f4h b5v a7 d7 a8 d6 b8 e6 d4h e5 a1h c1v b2h a4h c3v d5 c8 c5 c9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h e7h e5 c7h e4h g7h c4h a7h d1v g4v e7 f6v e5 f5 g5 a4h f3h g4 g2h g1h g6 f4 h6 e4 g5h h6h g6 e3 g7 f3 h7 g3 i7 h3 i8 i3 i9
+e2 d4v e3 e8 e4 e9 e5 e5h f5 h7h f7v e8 g5 g5h a1h e7 c1h e6 d2v g4v h2h f4h e6v d6v f5 f2v e5 e7 e2h g7v f5v e4v e4 e8 e3 e9 f3 f9 f4 g9 g4 g8 g3 g7 h3 g6 i3 h6 i4 i6 g1h i5 i6 h5 h6 h4 g3h i4 g6 i3 g7 h3 g8 g3 g9
+e2 e8 e3 e7 e4 e3h c3h f7 e5 e8v f4h d7h h4h d4v a3h f7h f6h c7v e6v g7 e5h h7 f5 h6 g5 h5 g4v h6 g6 h8h h6v f6 g2h a5h h6 g6 h7 g5 h8 f5 g8 e5 g9
+e2 e8 e3 e7 e4 e6 h3h d3v e2h h6h e5 d6h f6v e6v d4h d5 f3h e8v f5 f5h e4v a5h b4h c5 g5 a1v a2h g7h h5 h8h h6 b5 g6 a5 g7 a4 h7 b4 i7 c4 i8 c3 c2v c2 b1h c3 h8 c4 g8 d4 g9
+e2 e8 e3 e7 e4 f4h e5 d7 e6 d7h c5h e6v d6h d8v a5h a8h d4h c7 c4v f5h h5h c6 b6v a3h h1h f1v d6 e6 c6 e5 c7 f5 c8 g5 g3h h5 f2h h4 c9
+e2 e3h d2 e8 d3 c3h e3 f2v e2 f8 f7v e4v e2h f7 e1v f6 d2 a7h c7v e8v c2 e6v b2 f5 f4v h5h b3 f6 g4h g6 b4 g5 b5 h5 b6 i5 c6 b6h h1h i4 d6 d6h c6 i3 b6 h3 a6 g3 g2h h3 a7 i3 b7 i2 c7 h2 c8 g2 c9
