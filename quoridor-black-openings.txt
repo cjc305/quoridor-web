@@ -301,3 +301,5 @@ e2 e8 e3 e7 e4 e6 h3h d3v e2h e6h f4 g6h d1v c6h d5v e5 e4h g4v g2h a6h
 e2 e8 e3 e7 e4 e6 h3h d7h d3h d6 e5 d8v f3h b7h e6 c6 b5h b6 a4h c6
 e2 e8 e3 e7 e4 e6 h3h d7h d3h d8v f3h d6 e5 b7h e6 c6 b5h b6 a4h c6
 e2 e8 e3 e7 e4 e6 h3h d7h d3h f7h f3h h7h e5 d4v c5h e5h b6v f5v a2h e7
+e2 e8 e3 e7 e4 e6 h3h d3v e2h e6h f4 g6h d1v c6h f5 g5v c4h e5 e4h h7h
+e2 e8 e3 e7 e4 e6 h3h d7h d3h d6 e5 f7h c4h e4v c3v f8v e6 b7h c6 e6
