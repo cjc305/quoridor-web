@@ -227,6 +227,7 @@ e2 e8 f2 f8 f3 f7 f4 h7h f7v f6 f3h e6 d3h d6 f5 d8v h3h e8h g5 g6h
 e2 e8 e3 e7 e4 e6 a3h e7h e5 c7h e4h g7h g4h h8h c3h a7h d4v f6 h5v e5v
 e2 e8 e3 e7 e4 e6 h3h c6h d5v a6h f3h e4v e6v d3v e5 e4 d1h e8h e6 e3
 e2 e8h e3 d9 e4 d8 e5 d5h f5 f5h c2h d7 a2h c7 b6h b7 a7v b8 e5 b9
+e2 b8v e3 d5h e4 e8 f4 e7 f5 f5h e5 d4v e4 h5h e3 d2v e2 e1h f2 d7
 e2 b5v e3 e5h e4 e8 d4 e7 d5 c7h a3h e7h c3h a7h e3h e6 f4v c5h c5 c4h
 e2 f6h e3 e8 e4 e7 d6h d7 c7v d8 a3h d4v e5 e5h c3h e4v e4 e2v e3 d1h
 e2 d8v e3 d5h e4 e4v e2h e8 c2h c7h e3 e7 a2h f7 f5h d6v d3 g7 d4 h7
@@ -309,3 +310,5 @@ e2 e8 e3 e7 e4 d7h e5 f7h d4h h7h f4h d5v e1v e6h e3v c6v c3h a4h b1h h4h
 e2 e8 e3 e7 e4 e6 h3h f3v c2h e4h e2h c7h d4 c4h d1v a7h c4 e7h a1h a2h
 e2 e8 e3 e7 e4 e6 h3h e5 e6 d6h f3h c6v e4h f6h d5 b5h d5v c8v d3h a4v
 e2 e8 e3 e7 e4 d7h e5 f7h d4h h7h f4h d5v e1v c6v e3v b5h b4h h4h e6 e6h
+e2 b8v e3 d6v e4 e8 e5 d4v d2h e7 c3v f7h c1v d7h e3v b7h f5 f7 f4h g7
+e2 e4v e3 c4v e4 e6v e2h e8 e5 f8 d4h e8v d1v d7h f7v b7h e6 a6v c2h f7
