@@ -124,6 +124,8 @@
   .text-btn:disabled { color: var(--muted); cursor: default; }
   .mistake-status { margin: 0; color: var(--accent); font-size: 14px; }
   .head-actions { display: flex; gap: 14px; }
+  .check { display: flex; align-items: center; gap: 6px; font-size: 14px; cursor: pointer; }
+  .check input { accent-color: var(--accent); margin: 0; }
   .import-box { display: grid; gap: 6px; justify-items: start; }
   textarea.notation { resize: vertical; }
   .notation {
@@ -211,6 +213,17 @@
           <span class="note" id="cloud-status"></span>
           <button class="text-btn" id="btn-cloud" type="button"></button>
         </div>
+      </div>
+      <div class="field">
+        <div class="moves-head"><span class="field-title">自我訓練</span><button class="text-btn" id="btn-selftrain" type="button">開始訓練</button></div>
+        <p class="note">電腦自己跟自己下。黑棋贏的棋局會找出白棋該改的一步，存進錯題本，並透過 Google 雲端硬碟和其他裝置共享，可以多台一起跑。切到其他分頁或關閉畫面時會停止。</p>
+        <label class="check" id="selftrain-charge-row" hidden><input type="checkbox" id="selftrain-charging">只在充電時訓練</label>
+        <dl class="stats" id="selftrain-stats" hidden>
+          <dt>已下</dt><dd id="st-games"></dd>
+          <dt>黑棋勝</dt><dd id="st-wins"></dd>
+          <dt>找到修正</dt><dd id="st-fixes"></dd>
+        </dl>
+        <p class="mistake-status" id="selftrain-status" hidden></p>
       </div>
     </div>
 
