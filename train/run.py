@@ -32,10 +32,12 @@ def say(msg):
 
 
 def where():
-    if "google.colab" in sys.modules or os.path.exists("/content") and os.environ.get("COLAB_RELEASE_TAG"):
-        return "colab"
-    if os.path.exists("/kaggle/working"):
+    # Kaggle first: its image also ships the google.colab package (2026-11-18, the first Kaggle
+    # run took itself for Colab and failed mounting Drive).
+    if os.path.exists("/kaggle/working") or os.environ.get("KAGGLE_KERNEL_RUN_TYPE"):
         return "kaggle"
+    if os.path.exists("/var/colab/hostname") or os.environ.get("COLAB_RELEASE_TAG"):
+        return "colab"
     return "local"
 
 
