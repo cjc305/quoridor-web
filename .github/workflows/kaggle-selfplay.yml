@@ -1,0 +1,58 @@
+# Weekly cloud self-play on a Kaggle GPU (Kaggle's own scheduler cannot use a GPU).
+# Pushes train/quoridor-selfplay.ipynb to the Kaggle notebook as a new version, which Kaggle
+# then runs with a GPU and internet, like "Save Version > Save & Run All". The notebook
+# downloads the latest bundle from this site, so nothing here changes when the network does.
+#
+# Published by web/deploy-pages.sh from training/cloud/github/ in the project; edit it there.
+# Repository secrets (Settings > Secrets and variables > Actions):
+#   KAGGLE_USERNAME  the Kaggle username
+#   KAGGLE_KEY       the key from kaggle.json (Kaggle > Settings > API > Create Legacy API Key),
+#   or KAGGLE_API_TOKEN, a newer Kaggle API token, instead of KAGGLE_KEY.
+name: Kaggle self-play
+
+on:
+  schedule:
+    # Mondays 18:00 UTC = Tuesdays 02:00 in Taiwan; one 11-hour run uses 11 of Kaggle's 30
+    # free GPU hours a week.
+    - cron: "0 18 * * 1"
+  workflow_dispatch:
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install the Kaggle CLI
+        run: pip install --quiet kaggle
+      - name: Push the notebook (Kaggle runs it with a GPU)
+        env:
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+          KAGGLE_API_TOKEN: ${{ secrets.KAGGLE_API_TOKEN }}
+        run: |
+          set -eu
+          [ -n "$KAGGLE_USERNAME" ] || { echo "secret KAGGLE_USERNAME is missing"; exit 1; }
+          [ -n "$KAGGLE_KEY$KAGGLE_API_TOKEN" ] || { echo "secret KAGGLE_KEY or KAGGLE_API_TOKEN is missing"; exit 1; }
+          [ -n "$KAGGLE_KEY" ] || unset KAGGLE_KEY
+          [ -n "$KAGGLE_API_TOKEN" ] || unset KAGGLE_API_TOKEN
+          mkdir -p push
+          cp train/quoridor-selfplay.ipynb push/
+          cat > push/kernel-metadata.json <<EOF
+          {
+            "id": "$KAGGLE_USERNAME/notebook7ef68fd25f",
+            "title": "notebook7ef68fd25f",
+            "code_file": "quoridor-selfplay.ipynb",
+            "language": "python",
+            "kernel_type": "notebook",
+            "is_private": true,
+            "enable_gpu": true,
+            "enable_internet": true,
+            "dataset_sources": [],
+            "competition_sources": [],
+            "kernel_sources": []
+          }
+          EOF
+          kaggle kernels push -p push
+          sleep 30
+          kaggle kernels status "$KAGGLE_USERNAME/notebook7ef68fd25f"
