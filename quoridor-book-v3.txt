@@ -248,3 +248,13 @@ e2 e8 e3 e7 e4 e3h c3h f7 e5 e8v f4h d7h h4h d4v a3h f7h f6h c7v e6v g7 e5h h7 f
 e2 e8 e3 e7 e4 e6 h3h d3v e2h h6h e5 d6h f6v e6v d4h d5 f3h e8v f5 f5h e4v a5h b4h c5 g5 a1v a2h g7h h5 h8h h6 b5 g6 a5 g7 a4 h7 b4 i7 c4 i8 c3 c2v c2 b1h c3 h8 c4 g8 d4 g9
 e2 e8 e3 e7 e4 f4h e5 d7 e6 d7h c5h e6v d6h d8v a5h a8h d4h c7 c4v f5h h5h c6 b6v a3h h1h f1v d6 e6 c6 e5 c7 f5 c8 g5 g3h h5 f2h h4 c9
 e2 e3h d2 e8 d3 c3h e3 f2v e2 f8 f7v e4v e2h f7 e1v f6 d2 a7h c7v e8v c2 e6v b2 f5 f4v h5h b3 f6 g4h g6 b4 g5 b5 h5 b6 i5 c6 b6h h1h i4 d6 d6h c6 i3 b6 h3 a6 g3 g2h h3 a7 i3 b7 i2 c7 h2 c8 g2 c9
+# Ishtar (white, from e2) vs Apex wins, 2026-11-18, relay/vs-apex-ia9.txt
+e2 e8 e3 e7 e4 e6 a3h e7h e5 c7h e4h g7h g4h h6v c3h a7h d4v f6 e6 e5v e7 h8h f1h g6 f7 f8h f6 g5 g5v d8h g6 g7 h7 h6 h5 i5 i6 i4 i7 h4 i8 h3 h8 h1v h2h g3 g8 g2 g1v f2 e2v f3 f8 f4 e8 e4 d8 e3 c8 e2 c9
+e2 e8 e3 e7 e4 e6 a3h e5 e6 e6h c3h f6v d4h f8v f4h d5v g5v g7h h3h f5 d3v h6v f3h g2v e2h g5 f1h g6 f6 g7 f5 h7 g5 h6 g6 h5 g7 h4 h7 g4 h6 f4 h5 e4 i5 e3 i6 f3 i7 g3 i8 h8h h8 g2 g8 f2 g9
+e2 e8 e3 e7 e4 e6 a3h e5 e6 e6h c3h f6v d4h d5v f4h f8v g5v g7h h3h h6v d3v f5 f3h g2v e2h g5 f1h g6 f6 g7 f5 h7 g5 h6 g6 h5 g7 h4 h7 g4 h6 f4 h5 e4 i5 e3 i6 f3 i7 g3 i8 h8h h8 g2 g8 f2 g9
+e2 e8 e3 e7 e4 e6 h3h c6h d5v a6h f4 e5 f5 e4 f6 e3 e2h e6h g6 g6h h5h h8h h6 f8h i6 d3 c2h d8h i7 c4h h7 d3v b1h c3 a2v b3 d1h b2 f1h b8h h8 b3 g8 b2 f8 b3 e8 b2 d8 b3 c8 b4 a3h a4 b8 b4 a8 c4 a9
+e2 e8 e3 e7 e4 e6 a3h e5 e6 e6h c3h f6v d4h c6h f5 h4v g5v g6h e3h g5 f4h a6h g3h e5 h7v d5 e5 c5 b4v c4 h1h d4 d5 e4 c5 f4 c4 g4 d4 h4 e4 h5 f4 h6 g4 i6 h4 i5 h5 i4 h6 i3 i6 h3 i7 g3 i8 g2 i9
+e2 e8 e3 e7 e4 e6 h3h c6h d5v a6h f4 e5 f5 e4 f6 e3 e2h f7h f7 e6v e5h g6v g7 f3h g6 h8h g5 f8h h5 f3 f2v e3 d2v e4 d3h d4 c4v d5 h6 d6 h7 c6 h8 c5 g8 b5 f8 b4 a2h c4 b3h b4 e8 d8h d8 a4 c8 b8h b8 b4 a8 c4 a9
+e2 e8 e3 e7 e4 e6 a3h f6h e5v e5 d4h c3v c1v f7h g7v e3v e3 f2v e2 d5 f2 c5 b4h f8v b5v c6 c6h d6 f3 f3h f2 e1h e2 d2v b7v h5h e3 e6 e4 e7 d4 f7 d3 g7 d2 f7 d1 g7 e1 f7 f1 g7 g1 f7 h1 g7 h2 f7 h3 g7 h4 f7 h5 g7 g5 f7 g6 g7 h6 f7 h7 g7 h8 f7 b2h e7 h9
+e2 e8 e3 e7 e4 e6 a3h e7h e5 c7h e4h f6 h3h a7h f3h f5v c3h g7h d3v h6v f6h d5h h8v e6 d6v e7 f5 f7 f6 g7 e6 h7 e7 h6 f7 h5 g7 g3v e2h g5 h7 g4 h6 f4 h5 e4 i5 e3 i6 f3 i7 g3 i8 g2 i9
+e2 e8 e3 e7 e4 e6 h3h c6h d5v e5 e4h f3v f1v c7h b7v d3v e3 d8v g4h d2h f3 f5 f2 g5 g5v g6 f6h d1h e2 f6 d2 c2v g7v e6 e2 e7 f2 f7 f1 f8 e1 f9 f8v f8 d1 f7 c1 g7 c2 g8 c3 g9 c4 h9 b4 b4v b5 a5h b4 i9 b3 i8 c3 i7 c4 i6 c5 i5 c6 i4 b6 h4 b7 g4 b8 g3 b9
