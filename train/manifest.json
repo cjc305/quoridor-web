@@ -1,5 +1,5 @@
 {
-  "version": "e92b4ab39434",
+  "version": "c328dc86f8dd",
   "network": "v9s3",
   "net": "net-v9s3.pt",
   "files": ["run.py", "infer_server.py", "model.py", "net-v9s3.pt", "lib/annotations-13.0.jar","lib/engine-jvm.jar","lib/kotlin-stdlib-2.0.21.jar","lib/trainer.jar"],

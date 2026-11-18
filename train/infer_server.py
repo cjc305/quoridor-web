@@ -21,6 +21,8 @@ import torch
 from model import INPUT_PLANES, POLICY_PLANES, QuoridorNet
 
 MAX_BATCH = 2048
+# The GPU when there is one; the CPU otherwise (Kaggle's scheduled notebooks have no GPU).
+DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 
 def load_net(path, channels, blocks):
@@ -31,7 +33,7 @@ def load_net(path, channels, blocks):
     else:
         torch.manual_seed(0)
         net = QuoridorNet(channels, blocks)
-    return net.cuda().eval()
+    return net.to(DEVICE).eval()
 
 
 def recv_exact(conn, n):
@@ -65,9 +67,13 @@ class Batcher(threading.Thread):
                     break
                 items.append(item)
                 total += item[0].shape[0]
-            x = torch.from_numpy(np.concatenate([it[0] for it in items])).cuda(non_blocking=True)
-            with torch.no_grad(), torch.autocast("cuda", dtype=torch.float16):
-                p, v = self.net(x)
+            x = torch.from_numpy(np.concatenate([it[0] for it in items])).to(DEVICE, non_blocking=True)
+            if DEVICE == "cuda":
+                with torch.no_grad(), torch.autocast("cuda", dtype=torch.float16):
+                    p, v = self.net(x)
+            else:
+                with torch.no_grad():
+                    p, v = self.net(x)
             p = p.float().cpu().numpy()
             v = v.float().cpu().numpy()
             start = 0
@@ -111,7 +117,7 @@ def main():
     batcher = Batcher(net, a.size)
     batcher.start()
     srv = socket.create_server(("127.0.0.1", a.port))
-    print(f"serving {net.channels}x{net.blocks} on 127.0.0.1:{a.port}", flush=True)
+    print(f"serving {net.channels}x{net.blocks} on {DEVICE}, 127.0.0.1:{a.port}", flush=True)
 
     def stats():
         last = 0

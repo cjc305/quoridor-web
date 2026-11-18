@@ -3,7 +3,7 @@
 The notebook (quoridor-selfplay.ipynb) downloads this file from GitHub Pages on every start
 and runs it, so fixes and new networks reach every notebook without editing it. It:
   1. finds where it runs (Google Colab, Kaggle, or a local machine),
-  2. makes sure Java 17+ is there and a GPU is available,
+  2. makes sure Java 17+ is there, and uses the GPU when there is one (else the CPU),
   3. downloads the bundle listed in manifest.json (trainer, inference server, network),
   4. starts infer_server.py on the GPU and runs trainer self-play in batches,
   5. copies each finished batch (.npz) to the output folder:
@@ -75,14 +75,17 @@ def java_cmd():
 
 
 def check_gpu():
+    """Reports the GPU; without one the network runs on the CPU, slower but still useful
+    (Kaggle's scheduled notebooks cannot use a GPU)."""
     try:
         import torch
     except ImportError:
-        raise SystemExit("PyTorch is missing; use a Colab/Kaggle GPU notebook")
-    if not torch.cuda.is_available():
-        raise SystemExit("No GPU. Colab: Runtime > Change runtime type > T4 GPU. "
-                         "Kaggle: Settings > Accelerator > GPU (and Internet on).")
-    say(f"GPU: {torch.cuda.get_device_name(0)}")
+        raise SystemExit("PyTorch is missing; use a Colab or Kaggle notebook")
+    if torch.cuda.is_available():
+        say(f"GPU: {torch.cuda.get_device_name(0)}")
+    else:
+        say("no GPU: the network runs on the CPU (slower). For speed, Colab: Runtime > Change "
+            "runtime type > T4 GPU; Kaggle: Settings > Accelerator > GPU.")
 
 
 def download(m, cache):
