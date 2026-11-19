@@ -1,6 +1,5 @@
 # Black openings: kept list (kept-openings.txt).
 e2 e8 e3 e7 e4 e6 h3h e7h f3h e4v d3h d6 e5 c6 c5h a7h e6 c4v e6v b6
-e2 b8v e3 d6v e4 e8 e5 d4v d2h e7 f2h e6 h2h e7 e6 e8 e7 e7h e6 d8
 e2 e8 e3 e8v e4 e4v c2h e7 a2h f7 h3h e6v f6h f7h h7h d5h d4 b5h c4 g7
 e2 c8v e3 d3h f3 f3h e3 e8 d3 c2v d2 e7 d1 e6 h3h d6 c5h b7h b6v e6
 e2 e8 e3 h7h e4 d4v e5 e5h d2h f7h e4 e3h f4 e7 e1v e6v g4 d7 g3 f2v
