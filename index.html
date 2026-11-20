@@ -119,6 +119,11 @@
   .moves button { background: none; border: 0; padding: 0 2px; color: var(--fg); font: inherit; cursor: pointer; border-radius: 4px; }
   .moves button.current { color: var(--on-accent); background: var(--accent); }
   .empty { color: var(--muted); }
+  .replay-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(92px, 1fr)); gap: 4px; max-height: 12em; overflow-y: auto; font: 13px var(--font-mono); }
+  .replay-list button { background: none; border: 1px solid var(--line); border-radius: 6px; padding: 4px 2px; color: var(--fg); font: inherit; cursor: pointer; }
+  .replay-list button:hover { border-color: var(--accent); color: var(--accent); }
+  .replay-list button.current { color: var(--on-accent); background: var(--accent); border-color: var(--accent); }
+  .replay-list .empty { grid-column: 1 / -1; font-family: var(--font-body); }
   .moves-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
   .text-btn { background: none; border: 0; color: var(--accent); font: 500 14px var(--font-body); cursor: pointer; padding: 4px 0; }
   .text-btn:disabled { color: var(--muted); cursor: default; }
@@ -196,6 +201,17 @@
         <div class="moves-head"><span class="field-title">棋譜</span><button class="text-btn" id="btn-copy" type="button">複製棋譜</button></div>
         <div class="moves" id="moves"></div>
         <input class="notation" id="notation" readonly aria-label="棋譜文字">
+      </div>
+      <div class="field">
+        <div class="moves-head"><span class="field-title" id="replay-title"></span><button class="text-btn" id="btn-replay-exit" type="button" hidden></button></div>
+        <p class="note" id="replay-help"></p>
+        <div class="seg" id="seg-replay"><button type="button" data-kind="self"></button><button type="button" data-kind="human"></button></div>
+        <div class="moves-head" id="replay-nav" hidden>
+          <button class="text-btn" id="btn-replay-first" type="button"></button>
+          <span class="note" id="replay-ply" aria-live="polite"></span>
+          <button class="text-btn" id="btn-replay-last" type="button"></button>
+        </div>
+        <div class="replay-list" id="replay-list"></div>
       </div>
       <div class="field">
         <div class="moves-head"><span class="field-title">錯題本</span>
