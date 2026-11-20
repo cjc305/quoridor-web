@@ -1,5 +1,4 @@
 # Black openings: kept list (kept-openings.txt).
-e2 c4v e3 e8 e4 d4h f4 f4h c1h h4h a1h d8 f3 e2v f2 c8 f1 c6v b6h a7h
 e2 e8 e3 e7 e4 a7h e5 e5h e4h d4v c4h g5h g4h h7h a4h f7h f5 f7 g5 g7
 e2 e8 e3 e7 e4 e6 h3h e5 e6 d6h f3h c6v e4h f6h d5 b5h d5v h6h d3h a4v
 e2 e5h e3 d4v d2h e8 f2h h2v h1h e7 d3 e6 d4 c6h c3h a6h a3h e6h g5h g6h
@@ -15,3 +14,8 @@ e2 e8 e3 h7h e4 e7 e5 e6 d4h f4v f3h e5h e3v c5h h3h b4v a2h e7 c2h d7
 e2 d3h c3v e8 f2 e7 f3 f3h f2 h6h e6h d7 c6h d8 c1v g2v f1 f1v f2 e8
 e2 e8 e3 e7 e4 e6v a3h e6 c3h e8v e3h d7h d5h d6 f4v c6 b5h b6 a6v b7
 e2 e5h e3 d4v d3 e8 d4 c4h d3 d2v f1v a4h d2 c1h c2 f8 b2 f6v g6h h7h
+e2 h7h e3 e8 e4 d4v e5 e5h d2h d8 e4 f7h e3 d7 f2h d7h h2h b7h d3 d6
+e2 a7h e3 c7h e4 e8 e5 d5h e4h f5h d5 c4v d4 h5h d3 c2v d2 d1h e2 e7
+e2 h7h e3 f7h e4 e8 e5 e5h d4h c5h f5 f4v f4 a5h f3 f2v f2 e1h d6h c6v
+e2 c4v e3 e8 e4 e7 e5 d5h c2h f7 a2h f7h f6h h7h g6v c6v e4 d7h e3 d3v
+e2 f4v e3 e8 e4 e4h d4 c4h d3 a4h f2h f8 h2h d2v d2 g8 d1 f6v g7h h8
